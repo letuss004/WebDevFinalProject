@@ -30,8 +30,8 @@ Web structure
 
 Web features
 =======================
-
-- Employees management: add, remove, edit, ...
 - Employees classification:
-    * Normal: security, chef, sanitation staff,
-    * Medical: receptionist, doctor, nurse, interns
+   * Normal: security, chef, sanitation staff,
+   * Medical: receptionist, doctor, nurse, interns
+- Employees management: add, remove, edit, ...
+
