@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
     --background-color: #00008b;
-    --background-ontouch: #03a9f4;
     --prirmary-color: #fff;
-    --blue: #287bff;
-    --grey: #f5f5f5;
+    --green: #00FF00;
     --black1: #222;
     --black2: #999;
 }
@@ -30,8 +28,8 @@ body {
     position: fixed;
     width: 300px;
     height: 100%;
-    background: var(--blue);
-    border-left: 10px solid var(--blue);
+    background: var(--green);
+    border-left: 10px solid var(--green);
     transition: 0.5s;
     overflow: hidden;
 }
@@ -76,7 +74,7 @@ body {
 
 .navigation ul li:hover a,
 .navigation ul li.hovered a {
-    color: var(--blue);
+    color: var(--green);
 }
 
 .navigation ul li a .icon {
@@ -239,7 +237,7 @@ body {
     position: relative;
     font-size: 2.5em;
     font-weight: 500;
-    color: var(--blue);
+    color: var(--green);
 }
 
 .cardBox .card .cardName {
@@ -254,7 +252,7 @@ body {
 }
 
 .cardBox .card:hover {
-    background: var(--blue);
+    background: var(--green);
 }
 
 .cardBox .card:hover .numbers,
@@ -291,13 +289,13 @@ body {
 
 .cardHeader h2 {
     font-weight: 600;
-    color: var(--blue);
+    color: var(--green);
 }
 
 .btn {
     position: relative;
     padding: 5px 10px;
-    background: var(--blue);
+    background: var(--green);
     color: var(--prirmary-color);
     text-decoration: none;
     border-radius: 6px;
@@ -319,7 +317,7 @@ body {
 }
 
 .details .recentOrders table tbody tr:hover {
-    background: var(--blue);
+    background: var(--green);
     color: var(--prirmary-color);
 }
 
@@ -336,14 +334,14 @@ body {
 }
 
 .details .recentOrders table tr td:nth-child(2) {
-    text-align: end;
+    text-align: center;
 }
 
 .details .recentOrders table tr td:nth-child(3) {
     text-align: center;
 }
 
-.status.delivered {
+.status.available {
     padding: 2px 4px;
     background: #8de02c;
     color: var(--prirmary-color);
@@ -361,7 +359,7 @@ body {
     font-weight: 500;
 }
 
-.status.return {
+.status.off-duty {
     padding: 2px 4px;
     background: #f00;
     color: var(--prirmary-color);
@@ -422,7 +420,7 @@ body {
 }
 
 .recentCustomers table tr:hover {
-    background: var(--blue);
+    background: var(--green);
     color: var(--prirmary-color);
 }
 
