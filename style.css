@@ -2,7 +2,7 @@
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
-    --green: #00FF00;
+    --blue: hsl(204, 70%, 53%);
     --black1: #222;
     --black2: #999;
 }
@@ -28,8 +28,8 @@ body {
     position: fixed;
     width: 300px;
     height: 100%;
-    background: var(--green);
-    border-left: 10px solid var(--green);
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
     transition: 0.5s;
     overflow: hidden;
 }
@@ -74,7 +74,7 @@ body {
 
 .navigation ul li:hover a,
 .navigation ul li.hovered a {
-    color: var(--green);
+    color: var(--blue);
 }
 
 .navigation ul li a .icon {
@@ -237,7 +237,7 @@ body {
     position: relative;
     font-size: 2.5em;
     font-weight: 500;
-    color: var(--green);
+    color: var(--blue);
 }
 
 .cardBox .card .cardName {
@@ -252,7 +252,7 @@ body {
 }
 
 .cardBox .card:hover {
-    background: var(--green);
+    background: var(--blue);
 }
 
 .cardBox .card:hover .numbers,
@@ -289,13 +289,13 @@ body {
 
 .cardHeader h2 {
     font-weight: 600;
-    color: var(--green);
+    color: var(--blue);
 }
 
 .btn {
     position: relative;
     padding: 5px 10px;
-    background: var(--green);
+    background: var(--blue);
     color: var(--prirmary-color);
     text-decoration: none;
     border-radius: 6px;
@@ -317,7 +317,7 @@ body {
 }
 
 .details .recentOrders table tbody tr:hover {
-    background: var(--green);
+    background: var(--blue);
     color: var(--prirmary-color);
 }
 
@@ -343,7 +343,7 @@ body {
 
 .status.available {
     padding: 2px 4px;
-    background: #8de02c;
+    background: rgba(38, 194, 129, 1);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
@@ -352,7 +352,7 @@ body {
 
 .status.pending {
     padding: 2px 4px;
-    background: #f9ca3f;
+    background: rgba(252, 185, 65, 1);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
@@ -361,7 +361,7 @@ body {
 
 .status.off-duty {
     padding: 2px 4px;
-    background: #f00;
+    background: hsl(356, 100%, 41%);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
@@ -420,7 +420,7 @@ body {
 }
 
 .recentCustomers table tr:hover {
-    background: var(--green);
+    background: var(--blue);
     color: var(--prirmary-color);
 }
 
