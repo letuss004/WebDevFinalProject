@@ -2,6 +2,7 @@ Project Description
 =====================================================
 
 - Topic: Build a web application to manage normal and medical employees of a clinic
+- Course drive: https://drive.google.com/file/d/1ZmwCmQs6DbKYnjRvYziLcBVSz85er3oR/view?usp=sharing
 
 Members Requirements
 =======================
@@ -21,9 +22,9 @@ Web structure
     1. Home Page
     2. Employees
         1. Normal employees
-            *. List
+            * List
         2. Medical employees
-            *. List
+            * List
     3. Payment
     4. Workflow
     5. Recruitments
@@ -37,8 +38,7 @@ Web structure
 Web features
 =======================
 
+- Employees management: add, remove, edit, ...
 - Employees classification:
     * Normal: security, chef, sanitation staff,
     * Medical: receptionist, doctor, nurse, interns
-- Employees management: add, remove, edit, ...
-
