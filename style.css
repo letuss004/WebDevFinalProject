@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
     --background-color: #00008b;
-    --background-ontouch: #03a9f4;
     --prirmary-color: #fff;
-    --blue: #287bff;
-    --grey: #f5f5f5;
+    --blue: hsl(204, 70%, 53%);
     --black1: #222;
     --black2: #999;
 }
@@ -336,16 +334,16 @@ body {
 }
 
 .details .recentOrders table tr td:nth-child(2) {
-    text-align: end;
+    text-align: center;
 }
 
 .details .recentOrders table tr td:nth-child(3) {
     text-align: center;
 }
 
-.status.delivered {
+.status.available {
     padding: 2px 4px;
-    background: #8de02c;
+    background: rgba(38, 194, 129, 1);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
@@ -354,16 +352,16 @@ body {
 
 .status.pending {
     padding: 2px 4px;
-    background: #f9ca3f;
+    background: rgba(252, 185, 65, 1);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
 }
 
-.status.return {
+.status.off-duty {
     padding: 2px 4px;
-    background: #f00;
+    background: hsl(356, 100%, 41%);
     color: var(--prirmary-color);
     border-radius: 4px;
     font-size: 14px;
