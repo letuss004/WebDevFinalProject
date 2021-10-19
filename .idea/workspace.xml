@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6941ee-777a-4622-a550-19887dcdbeff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginstye.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ac6941ee-777a-4622-a550-19887dcdbeff" name="Changes" comment="Update Requirements.md">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginTestDb/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/LoginTestDb/Connector.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/LoginTestDb/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoginTestDb/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1z5oU0PfJjGlWquoC1N8gJIHA9T" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,11 +32,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/firstNative" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProgrammingProject\Web\WebDevFinalProject\LoginTestDb" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633447322228</updated>
       <workItem from="1633447323624" duration="5797000" />
+      <workItem from="1633702873761" duration="12835000" />
+      <workItem from="1634102863843" duration="599000" />
+      <workItem from="1634137061505" duration="1201000" />
+      <workItem from="1634199341975" duration="1160000" />
+      <workItem from="1634372546298" duration="693000" />
+      <workItem from="1634540174593" duration="47000" />
+      <workItem from="1634621006366" duration="7000" />
+      <workItem from="1634645765312" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Update Requirements.md">
       <created>1633454680386</created>
