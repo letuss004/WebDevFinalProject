@@ -1,6 +1,7 @@
 USTH ICT 2021 Web Application Development Final Project Group 14
 =====================================================
 
+
 Students Infomation
 =======================
 
@@ -9,11 +10,13 @@ Students Infomation
 * Le Duy
 * Pham Tuan Thanh
 
+
 Project Description
 =====================================================
 
 - Topic: Build a web application to manage normal and medical employees of a clinic
 - Course drive: https://drive.google.com/file/d/1ZmwCmQs6DbKYnjRvYziLcBVSz85er3oR/view?usp=sharing
+
 
 Members Requirements
 =======================
@@ -23,6 +26,7 @@ Members Requirements
 3. Duty
     * Front-end: Thanh + Trung
     * Back-end: Duy + Tu
+
 
 Web structure
 =======================
@@ -45,6 +49,7 @@ Web structure
         * Web setting
         * Account setting
     8. Sign out
+
 
 Web features
 =======================
