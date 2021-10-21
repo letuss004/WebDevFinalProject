@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <title>Sign in & Sign up Form</title>
+</head>
+<body>
+<div class="container">
+    <div class="forms-container">
+        <div class="signin-signup">
+
+            <!--            LOG IN START-->
+            <form class="sign-in-form" name="myForm" id="myForm">
+                <h2 class="title">Sign in</h2>
+
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="fname" id="userNameLogin" placeholder="Username"/>
+                </div>
+                <span id="error-userName_login"></span>
+
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password"
+                           id="passLogin"
+                            name="Pass"
+                            placeholder="Password"
+                            autocomplete="off"/>
+                </div>
+                <span id="error-password-login"></span>
+
+                <input type="button" value="Login" class="btn solid" onclick="validateLogIn()"/>
+                <p class="social-text">Or Sign in with social platforms</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm
+                    =false&continue\=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache
+                    =2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </form>
+
+            <!--            SIGN UP START -->
+            <form action="#" class="sign-up-form" >
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input
+                            type="text"
+                            id="fname"
+                            placeholder="Username"
+                            autocomplete="off"
+                    />
+                </div>
+                <span id="error-userName-signup"></span>
+
+
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input
+                            type="email"
+                            id="eemail"
+                            placeholder="Username@gmail.com"
+                            autocomplete="off"
+                    />
+                </div>
+                <span id="error-email-signup"></span>
+
+
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="lpassword" placeholder="Password"/>
+                </div>
+                <span id="error-password-signup"></span>
+
+
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input
+                            type="password"
+                            id="confirm-password"
+                            placeholder="Confirmation Password"
+                    />
+                </div>
+                <span id="error-cPass-signup"></span>
+
+
+                <input type="button" class="btn" value="Sign up" onclick="validateSignUp()"/>
+
+                <p class="social-text">Or Sign up with social platforms</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a
+                            href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                            class="social-icon"
+                    >
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>Admin Control</h3>
+                <p>Welcome to the Health Clinic Site.</p>
+                <button
+                        class="btn transparent"
+                        onclick="UserRegister()"
+                        id="sign-up-btn"
+                >
+                    Sign up
+                </button>
+            </div>
+            <img src="img/Medicine-bro.svg" class="image" alt=""/>
+        </div>
+        <div class="panel right-panel">
+            <div class="content">
+                <h3>Hi, Welcome</h3>
+                <p>Please sign up to know your identification.</p>
+                <button class="btn transparent" onclick="SignIn()" id="sign-in-btn">
+                    Sign in
+                </button>
+            </div>
+            <img src="img/admin.svg" class="image" alt=""/>
+        </div>
+    </div>
+</div>
+<script src="./Js/validation.js"></script>
+<script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"></script>
+<script src="./Js/button.js"></script>
+<script src="./Js/app.js"></script>
+<script src="./Js/data.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="server.js"></script>
+</body>
+</html>

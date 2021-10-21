@@ -10,7 +10,6 @@ Students Infomation
 * Le Duy
 * Pham Tuan Thanh
 
-
 Project Description
 =====================================================
 
