@@ -3,8 +3,8 @@
     --background-color: #00008b;
     --prirmary-color: #fff;
     --blue: hsl(204, 70%, 53%);
-    --black1: #222;
-    --black2: #999;
+    --black1: hsl(0, 0%, 13%);
+    --black2: hsl(0, 0%, 60%);
 }
 
 * {
