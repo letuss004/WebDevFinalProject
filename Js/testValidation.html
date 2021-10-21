@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="sign-in-form" name="myForm">
+    <h2 class="title">Sign in</h2>
+
+    <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input type="text" name="fname" placeholder="Username"/>
+        <span id="error-userName">sss</span>
+    </div>
+
+    <div class="input-field">
+        <i class="fas fa-lock"></i>
+        <input type="password" name="Pass" placeholder="Password" autocomplete="off"/>
+        <span id="error-password"></span>
+    </div>
+    <input type="button" value="Login" class="btn solid" onclick="validateLogIn()"/>
+</form>
+
+<script src="validation.js"></script>
+</body>
+</html>
