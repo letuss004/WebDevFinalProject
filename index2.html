@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
-    <title>Employee and Doctor Management</title>    
+    <title>Health Clinic Management</title>    
     <link rel="stylesheet" href="./styles/style2.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css' rel='stylesheet'>
@@ -23,11 +26,11 @@
                 <a href="#">
                     <span class="icon"><ion-icon name="heart-circle-sharp"></ion-icon>
                     </span>
-                    <span class="title"><h2>HealthCare</h2></span>
+                    <span class="title"><h2>HEALTH CARE</h2></span>
                 </a>
                </li>
                <li>
-                <a href="#">
+                <a href="#main">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                     <span class="title">Home</span>
@@ -42,7 +45,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="./list/index.html">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                     <span class="title">Payments</span>
@@ -50,7 +53,7 @@
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="/login.html">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                     <span class="title">Sign Out</span>
@@ -62,7 +65,7 @@
         </div>
     </header>
         <!--Main-->
-        <div class="main">
+        <div id="main">
             <div class="topbar">
                 <!--//onclick="toggleMenu();" for toggle v1-->
                 <div class="toggle">
@@ -76,9 +79,9 @@
                     </label>
                     
                 </div>
-                <!--UserImg-->
+                
                 <div class="user">
-                    <img src="./images/Profile.jpg">
+                    <span>Hi, Welcome back!</span>
                 </div>
             </div>
 
@@ -160,13 +163,13 @@
                             </tr>
                             <tr>
                                 <td>Israr Byrne</td>
-                                <td>$Respiratory therapist</td>
+                                <td>Registered nurse</td>
                                 <td>Due</td>
                                 <td><span class="status inprogress">In Progress</span></td>
                             </tr>
                             <tr>
                                 <td>Ronaldo Chandler</td>
-                                <td>Registered nurse</td>
+                                <td>Respiratory therapist</td>
                                 <td>Paid</td>
                                 <td><span class="status available">Available</span></td>
                             </tr>
@@ -241,6 +244,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript"></script>
-    <script src="./sources/main.js"></script>
+    <script src="./Js/button.js"></script>
+    <script src="./Js/app.js"></script>
+    <script src="./Js/data.js"></script>
 </body>
 </html>

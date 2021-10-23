@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Health Clinic Management</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="index2.html" class="sign-in-form" name="myForm">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name="fname" placeholder="Username">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="Pass" placeholder="Password" autocomplete="off"/>
+            </div>
+            <input type="submit" value="Login" class="btn solid" onclick="myFunction()">
+            <div class="social-text">
+              <input type="checkbox" name="remember-login" value="remember-login" style="color: hsl(204, 70%, 53%);">
+              <span>Remember me next time</span>
+            </div>
+          </form>
+        </div>
+          </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Admin Control</h3>
+            <p>
+              Welcome to the Health Clinic Site.
+            </p>
+            <button class="btn transparent" onclick="window.location.href='/Front-page/index.html'" id="sign-up-btn">
+              Back
+            </button>
+          </div>
+          <img src="img/Medicine-bro.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Hi, Welcome </h3>
+            <p>
+              Please sign up to know your identification.
+            </p>
+            <button class="btn transparent"  onclick="SignIn()" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/admin.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="./Js/button.js"></script>
+    <script src="./Js/app.js"></script>
+    <script src="./Js/data.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
