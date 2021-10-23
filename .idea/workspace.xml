@@ -2,17 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd617331-7ee3-4bbb-b3c3-03b86ecd9c16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/testValidation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/core/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/models/AccountModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/views/welcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/testValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/testValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/old/Js/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/Connector.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/Connector.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginTestDb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/LoginTestDb/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/old/favicon/apple-touch-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/Profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/img9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old/images/user.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Medicine-bro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/old/img/Medicine-bro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/admin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/old/img/admin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/log.svg" beforeDir="false" afterPath="$PROJECT_DIR$/old/img/log.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/register.svg" beforeDir="false" afterPath="$PROJECT_DIR$/old/img/register.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/old/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/old/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/old/styles/style2.css" afterDir="false" />
     </list>
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +50,6 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,29 +68,44 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1zoDPuAcjSb3RzHTCmrVBXrgIDu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../USTH" />
-
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mvc/controllers" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lduy1_nqn7x3u\OneDrive\Desktop\WebDevFinalProject\mvc\controllers" />
+      <recent name="C:\Users\lduy1_nqn7x3u\OneDrive\Desktop\WebDevFinalProject\mvc" />
+      <recent name="C:\Users\lduy1_nqn7x3u\OneDrive\Desktop\WebDevFinalProject\old" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bridge.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/mvc/bridge.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.bridge.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-
       <changelist id="fd617331-7ee3-4bbb-b3c3-03b86ecd9c16" name="Changes" comment="" />
       <created>1634805528087</created>
       <option name="number" value="Default" />
@@ -72,8 +115,16 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
+      <workItem from="1634824435783" duration="4013000" />
+      <workItem from="1634831243960" duration="2287000" />
+      <workItem from="1634882854018" duration="2887000" />
+      <workItem from="1634897610618" duration="2156000" />
+      <workItem from="1634899989195" duration="4763000" />
+      <workItem from="1634909467491" duration="614000" />
+      <workItem from="1634916908197" duration="3446000" />
+      <workItem from="1634979520662" duration="309000" />
+      <workItem from="1634981440269" duration="4167000" />
     </task>
-
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +140,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-
 </project>
