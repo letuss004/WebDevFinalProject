@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
-    <title>Health Clinic Management</title>    
-    <link rel="stylesheet" href="./styles/style2.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <title>Employee and Doctor Management</title>    
+    <link rel="stylesheet" href="/main-page/style/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -26,11 +27,11 @@
                 <a href="#">
                     <span class="icon"><ion-icon name="heart-circle-sharp"></ion-icon>
                     </span>
-                    <span class="title"><h2>HEALTH CARE</h2></span>
+                    <span class="title"><h2>HealthCare</h2></span>
                 </a>
                </li>
                <li>
-                <a href="#main">
+                <a href="/main-page/main.html">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                     <span class="title">Home</span>
@@ -45,7 +46,7 @@
                 </a>
             </li>
             <li>
-                <a href="./list/index.html">
+                <a href="/list/payment.html">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                     <span class="title">Payments</span>
@@ -53,7 +54,7 @@
                 </a>
             </li>
             <li>
-                <a href="/login.html">
+                <a href="/main-page/login.html">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                     <span class="title">Sign Out</span>
@@ -65,7 +66,7 @@
         </div>
     </header>
         <!--Main-->
-        <div id="main">
+        <div class="main">
             <div class="topbar">
                 <!--//onclick="toggleMenu();" for toggle v1-->
                 <div class="toggle">
@@ -79,9 +80,9 @@
                     </label>
                     
                 </div>
-                
+                <!--UserImg-->
                 <div class="user">
-                    <span>Hi, Welcome back!</span>
+                    <span>Hi, Welcome back</span>
                 </div>
             </div>
 
@@ -130,8 +131,8 @@
                  <!--Detail Ordered list-->
                 <div class="recentOrders">
                     <div class="cardHeader">
-                        <h2>Employees Management</h2>
-                        <a href="#" class="btn">View All</a>
+                        <h2>Employees Status</h2>
+                        <a href="#" class="view">Status</a>
                     </div>
                     <table>
                         <thead>
@@ -163,13 +164,13 @@
                             </tr>
                             <tr>
                                 <td>Israr Byrne</td>
-                                <td>Registered nurse</td>
+                                <td>$Respiratory therapist</td>
                                 <td>Due</td>
                                 <td><span class="status inprogress">In Progress</span></td>
                             </tr>
                             <tr>
                                 <td>Ronaldo Chandler</td>
-                                <td>Respiratory therapist</td>
+                                <td>Registered nurse</td>
                                 <td>Paid</td>
                                 <td><span class="status available">Available</span></td>
                             </tr>
@@ -244,8 +245,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript"></script>
-    <script src="./Js/button.js"></script>
-    <script src="./Js/app.js"></script>
-    <script src="./Js/data.js"></script>
+    <script src="/main-page/sources/main.js"></script>
+    <script src="/main-page/sources/function.js"></script>
+    <script src="/main-page/sources/sign-in-function.js"></script>
 </body>
 </html>

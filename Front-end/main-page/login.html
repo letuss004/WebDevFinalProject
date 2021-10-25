@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/main-page/style/login-style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -19,7 +19,7 @@
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" name="fname" placeholder="Username">
+              <input type="text" name="Uname" placeholder="Username">
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
@@ -45,25 +45,13 @@
               Back
             </button>
           </div>
-          <img src="img/Medicine-bro.svg" class="image" alt="" />
-        </div>
-        <div class="panel right-panel">
-          <div class="content">
-            <h3>Hi, Welcome </h3>
-            <p>
-              Please sign up to know your identification.
-            </p>
-            <button class="btn transparent"  onclick="SignIn()" id="sign-in-btn">
-              Sign in
-            </button>
-          </div>
-          <img src="img/admin.svg" class="image" alt="" />
+          <img src="/main-page/images/Medicine-bro.svg" class="image" alt="" />
         </div>
       </div>
     </div>
-    <script src="./Js/button.js"></script>
-    <script src="./Js/app.js"></script>
-    <script src="./Js/data.js"></script>
+    <script src="/main-page/sources/firebase-data.js"></script>
+    <script src="/main-page/sources/function.js"></script>
+    <script src="/main-page/sources/sign-in-function.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="server.js"></script>

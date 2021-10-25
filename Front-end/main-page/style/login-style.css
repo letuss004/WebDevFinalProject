@@ -33,7 +33,6 @@ input {
   transform: translate(-50%, -50%);
   left: 75%;
   width: 50%;
-  transition: 1s 0.7s ease-in-out;
   display: grid;
   grid-template-columns: 1fr;
   z-index: 5;
@@ -161,11 +160,6 @@ form.sign-in-form {
   padding: 3rem 17% 2rem 12%;
 }
 
-.right-panel {
-  pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
-}
-
 .panel .content {
   color: #fff;
   transition: transform 0.9s ease-in-out;
@@ -191,11 +185,6 @@ form.sign-in-form {
   height: 41px;
   font-weight: 600;
   font-size: 0.8rem;
-}
-
-.right-panel .image,
-.right-panel .content {
-  transform: translateX(800px);
 }
 
 @media (max-width: 870px) {
