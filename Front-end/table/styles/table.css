@@ -280,6 +280,7 @@ tr{
     border: 2px solid var(--black2);
 }
 
+
 @media (max-width: 991px) {
     .navigation {
         left: -300px;
@@ -321,3 +322,4 @@ tr{
         color: var(--prirmary-color);
     }
 }
+
