@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -11,7 +12,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body {
@@ -99,6 +100,7 @@ body {
     text-align: start;
     white-space: nowrap;
 }
+
 /* Curve outside zone */
 
 .navigation ul li:hover a::before,
@@ -203,7 +205,7 @@ table {
     border-collapse: collapse;
     bottom: 270px;
 }
-  
+
 th, td {
     padding: 10px 20px;
     text-align: center;
@@ -213,7 +215,7 @@ th, td {
 }
 
 td {
-    color:hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 13%);
 }
 
 /* tr:nth-child(odd) {
@@ -224,7 +226,7 @@ table tr {
     color: var(--black1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-  
+
 tr:nth-child(even) {
     background: var(--blue);
 }
@@ -249,12 +251,12 @@ tbody {
 }
 
 tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
 
-tr{
+tr {
     table-layout: fixed;
     width: 100%;
 }
@@ -273,42 +275,51 @@ tr{
     .navigation {
         left: -300px;
     }
+
     .navigation.active {
         left: 0;
         width: 300px;
     }
+
     .main {
         width: 100%;
-        left: 0;  
+        left: 0;
     }
+
     .main.active {
         left: 300px;
     }
-    
+
 }
 
 @media (max-width: 480px) {
     .cardBox {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .cardHeader h2 {
         font-size: 20px;
     }
+
     .user {
         min-width: 40px;
     }
+
     .navigation {
         width: 100%;
         left: -100%;
         z-index: 1000;
     }
+
     .navigation.active {
         width: 100%;
         left: 0;
     }
+
     .toggle {
         z-index: 10001;
     }
+
     .main.active .toggle {
         position: fixed;
         right: 0;
