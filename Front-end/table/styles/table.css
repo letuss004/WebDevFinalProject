@@ -271,13 +271,13 @@ tr{
 .button1 {
     background-color: var(--prirmary-color); 
     color: var(--black1); 
-    border: 2px solid var(--prirmary-color);
+    border: 2px solid var(--black2);
 }
 
 .button2 {
     background-color: var(--prirmary-color); 
     color: var(--black1); 
-    border: 2px solid var(--prirmary-color);
+    border: 2px solid var(--black2);
 }
 
 @media (max-width: 991px) {
