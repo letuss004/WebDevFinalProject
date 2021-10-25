@@ -207,7 +207,6 @@ table {
 th, td {
     padding: 10px 20px;
     text-align: center;
-    /* word-wrap: break-word; */
     color: hsl(40, 10%, 94%);
     font-size: 16px;
 }
@@ -216,9 +215,7 @@ td {
     color:hsl(0, 0%, 13%);
 }
 
-/* tr:nth-child(odd) {
-    background: var(--prirmary-color);
-  } */
+
 
 table tr {
     color: var(--black1);
@@ -267,8 +264,6 @@ tr{
     padding: 10px 24px;
 }
 
-/* Responsive */
-
 @media (max-width: 991px) {
     .navigation {
         left: -300px;
@@ -288,12 +283,6 @@ tr{
 }
 
 @media (max-width: 480px) {
-    .cardBox {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .cardHeader h2 {
-        font-size: 20px;
-    }
     .user {
         min-width: 40px;
     }
