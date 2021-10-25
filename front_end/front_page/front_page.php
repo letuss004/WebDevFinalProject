@@ -24,7 +24,7 @@
             <span class="heading-primary-main">Health Clinic Adminstration</span>
             <span class="heading-primary-sub">Welcome back, Doctor</span>
         </h1>
-        <a href="../main_page/login.php" class="btn btn-white btn-animated">Get Started</a>
+        <a href="../main_page/login_view.php" class="btn btn-white btn-animated">Get Started</a>
     </div>
 </header>
 </body>

@@ -15,7 +15,7 @@
 <div class="container">
     <div class="forms-container">
         <div class="signin-signup">
-            <form action="main.php" class="sign-in-form" name="myForm">
+            <form action="/back_end/login.php" class="sign-in-form" name="myForm" method="post">
                 <h2 class="title">Sign in</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>

@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="login.php">
+                        <a href="login_view.php">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                             <span class="title">Sign Out</span>
