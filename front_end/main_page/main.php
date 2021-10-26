@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +43,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../table/table.php">
+                        <a href="../table/employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -84,7 +88,7 @@
         </div>
         <!--UserImg-->
         <div class="user">
-            <span>Hi, Welcome back</span>
+            <span>Hi, Welcome <?php echo $_SESSION['username'] . " !" ?></span>
         </div>
     </div>
 
@@ -146,54 +150,26 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>John David</td>
-                    <td>Medical technologist</td>
-                    <td>Paid</td>
-                    <td><span class="status available">Available</span></td>
-                </tr>
-                <tr>
-                    <td>William Howard</td>
-                    <td>Radiologic technician</td>
-                    <td>Due</td>
-                    <td><span class="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                    <td>Boomman Tard</td>
-                    <td>Dietician</td>
-                    <td>Paid</td>
-                    <td><span class="status off-duty">Off-duty</span></td>
-                </tr>
-                <tr>
-                    <td>Israr Byrne</td>
-                    <td>$Respiratory therapist</td>
-                    <td>Due</td>
-                    <td><span class="status inprogress">In Progress</span></td>
-                </tr>
-                <tr>
-                    <td>Ronaldo Chandler</td>
-                    <td>Registered nurse</td>
-                    <td>Paid</td>
-                    <td><span class="status available">Available</span></td>
-                </tr>
-                <tr>
-                    <td>Susie Andrade</td>
-                    <td>Occupational therapist</td>
-                    <td>Due</td>
-                    <td><span class="status pending">Pending</span></td>
-                </tr>
-                <tr>
-                    <td>Pino Hubbard</td>
-                    <td>Guard</td>
-                    <td>Due</td>
-                    <td><span class="status off-duty">Off-duty</span></td>
-                </tr>
-                <tr>
-                    <td>Mixia Johnny Wilks</td>
-                    <td>Physician assistant</td>
-                    <td>Paid</td>
-                    <td><span class="status inprogress">In Progress</span></td>
-                </tr>
+                <?php foreach ($_SESSION['employees'] as $employee) {
+                    echo "<tr>";
+                    echo "<td>";
+                    echo $employee['fullName'];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $employee['jobName'];
+                    echo "</td>";
+                    echo "<td>";
+                    if ($employee['paymentStatus']) {
+                        echo "Paid";
+                    } else {
+                        echo "Due";
+                    }
+                    echo "</td>";
+                    echo "<td>";
+                    echo "<span class='status available'>Available</span></td>";
+                    echo "</tr>";
+                }
+                ?>
                 </tbody>
             </table>
         </div>
