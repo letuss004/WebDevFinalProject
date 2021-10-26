@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;   
 }
 
@@ -129,7 +129,7 @@ body {
     pointer-events: none;
 }
 
-/* Main */
+
 
 .main {
     position: absolute;
@@ -205,11 +205,12 @@ table {
 }
   
 th, td {
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     color: hsl(40, 10%, 94%);
     font-size: 16px;
 }
+
 
 td {
     color:hsl(0, 0%, 13%);
@@ -279,6 +280,7 @@ tr{
     color: var(--black1); 
     border: 2px solid var(--black2);
 }
+
 
 
 @media (max-width: 991px) {
