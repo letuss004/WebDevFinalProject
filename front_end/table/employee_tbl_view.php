@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +43,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="table.php">
+                        <a href="employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -55,7 +59,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/login.php">
+                        <a href="../main_page/login_view.php">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                             <span class="title">Sign Out</span>
@@ -84,7 +88,7 @@
         </div>
         <!--UserImg-->
         <div class="user">
-            <span>Hi, Welcome back</span>
+            <span>Hi, Welcome <?php echo $_SESSION['username'] . " !" ?></span>
         </div>
     </div>
     <table class="table">
@@ -101,43 +105,39 @@
 
         </thead>
         <tbody>
-        <tr>
-            <td>1</td>
-            <td>123456</td>
-            <td>Trung Pham</td>
-            <td>0949038957</td>
-            <td>Hà Nội</td>
-            <td>Dev</td>
-            <td>
-                <button class="btn btn-default">
-                    Edit
-                </button>
-                <button class="btn btn-danger">
-                    Delete
-                </button>
+        <?php $cnt = 1;
+        foreach ($_SESSION['employees'] as $employee) {
+            echo "<tr>";
+            echo "<td>";
+            echo $cnt++;
+            echo "</td>";
+            echo "<td>";
+            echo $employee['employeeID'];
+            echo "</td>";
+            echo "<td>";
+            echo $employee['fullName'];
+            echo "</td>";
+            echo "<td>";
+            echo $employee['phoneNumber'];
+            echo "</td>";
+            echo "<td>";
+            echo $employee['address'];
+            echo "</td>";
+            echo "<td>";
+            echo $employee['jobName'];
+            echo "</td>";
+            echo "<td>";
+            echo "<button class='btn btn-default'>";
+            echo "Edit";
+            echo "</button>";
+            echo "<button class='btn btn-danger'>";
+            echo "Delete";
+            echo "</button>";
 
-            </td>
+            echo "</td>";
 
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>123456</td>
-            <td>Trung Pham</td>
-            <td>0949038957</td>
-            <td>Hà Nội</td>
-            <td>Dev</td>
-            <td>
-                <button class="btn btn-default">
-                    Edit
-                </button>
-                <button class="btn btn-danger">
-                    Delete
-                </button>
-
-            </td>
-
-        </tr>
-
+            echo "</tr>";
+        } ?>
         </tbody>
     </table>
 </div>

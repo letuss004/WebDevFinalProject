@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +42,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../table/table.php">
+                        <a href="../table/employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -54,7 +58,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/login.php">
+                        <a href="../main_page/login_view.php">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                             <span class="title">Sign Out</span>
@@ -81,7 +85,7 @@
         </div> -->
 
         <div class="user">
-            <span>Hi, Welcome back!</span>
+            <span>Hi, Welcome <?php echo $_SESSION['username']." !"?></span>
         </div>
     </div>
 
