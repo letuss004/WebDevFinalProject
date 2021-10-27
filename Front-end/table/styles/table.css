@@ -228,11 +228,12 @@ table tr {
 } */
 
 thead {
-    background: var(--blue);
-    display: table;
-    width: 98.5%;
-    position: absolute;
-    right: 100px;
+        background: var(--blue);
+        margin: auto;
+        display: table;
+        width: 98.5%;
+        position: absolute;
+        right: 100px;
 }
 
 tbody {
