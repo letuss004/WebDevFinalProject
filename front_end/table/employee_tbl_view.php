@@ -15,7 +15,6 @@ session_start();
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
