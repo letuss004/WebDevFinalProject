@@ -84,7 +84,7 @@ form {
   
 }
 
-form {
+form input{
   position: relative;
   left: 130px;
   bottom: 30px;
