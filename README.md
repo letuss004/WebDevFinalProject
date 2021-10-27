@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 # WebDevFinalProject
-Update everytime
-Please check
-Thank you
-=======
+
 USTH ICT 2021 Web Application Development Final Project Group 14
 =====================================================
-
 
 Students Infomation
 =======================
@@ -63,4 +58,3 @@ Web features
 - Employees classification:
     * Normal: security, chef, sanitation staff,
     * Medical: receptionist, doctor, nurse, interns
->>>>>>> duy
