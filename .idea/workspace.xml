@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="">
+    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
+      <change afterPath="$PROJECT_DIR$/controller/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_table/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_table/sources/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_table/sources/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_table/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/android_chrome_192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/android_chrome_192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/android_chrome_512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/android_chrome_512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/apple_touch_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/apple_touch_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/favicon_16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/favicon_16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/favicon_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/favicon_32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/favicon/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/favicon/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/front_page/front_page_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/front_page_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/front_page/front_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/front_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/images/admin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/admin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/images/log.svg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/log.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/images/medicine_bro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/medicine_bro.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/images/register.svg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/register.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/Profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/Profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/img/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/image/user.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/sources/firebase_data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/sources/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/sources/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/sources/sign_in_function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_page/style/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/login_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment/sources/responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment/sources/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment/sources/view.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/core/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/db_connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/account_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/account_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +39,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$USER_HOME$/ProgrammingStuff/Xampp/php/PEAR" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1zoDPuAcjSb3RzHTCmrVBXrgIDu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,7 +82,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd617331-7ee3-4bbb-b3c3-03b86ecd9c16" name="Changes" comment="" />
+      <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout" />
       <created>1634805528087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -119,6 +91,7 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
+      <workItem from="1635354279614" duration="4397000" />
     </task>
     <servers />
   </component>

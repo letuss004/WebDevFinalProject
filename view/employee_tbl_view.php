@@ -107,34 +107,15 @@ session_start();
         <?php $cnt = 1;
         foreach ($_SESSION['employees'] as $employee) {
             echo "<tr>";
-            echo "<td>";
-            echo $cnt++;
+            echo "<td>" . $cnt++ . "</td>";
+            echo "<td>" . $employee['employeeID'] . "</td>";
+            echo "<td>" . $employee['fullName'] . "</td>";
+            echo "<td>" . $employee['phoneNumber'] . "</td>";
+            echo "<td>" . $employee['address'] . "</td>";
+            echo "<td>" . $employee['jobName'] . "</td>";
+            echo "<td>" . "<button class='btn btn-default'>" . "Edit" . "</button>";
+            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
             echo "</td>";
-            echo "<td>";
-            echo $employee['employeeID'];
-            echo "</td>";
-            echo "<td>";
-            echo $employee['fullName'];
-            echo "</td>";
-            echo "<td>";
-            echo $employee['phoneNumber'];
-            echo "</td>";
-            echo "<td>";
-            echo $employee['address'];
-            echo "</td>";
-            echo "<td>";
-            echo $employee['jobName'];
-            echo "</td>";
-            echo "<td>";
-            echo "<button class='btn btn-default'>";
-            echo "Edit";
-            echo "</button>";
-            echo "<button class='btn btn-danger'>";
-            echo "Delete";
-            echo "</button>";
-
-            echo "</td>";
-
             echo "</tr>";
         } ?>
         </tbody>

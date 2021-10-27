@@ -1,4 +1,4 @@
-?php
+<?php
 session_start();
 ?>
 
@@ -104,7 +104,7 @@ session_start();
         </div>
         <div class="card">
             <div>
-                <div class="numbers">80</div>
+                <div class='numbers'> <?php echo sizeof($_SESSION['employees']) ?> </div>
                 <div class="cardName">Staffs</div>
             </div>
             <div class="iconBx">
@@ -122,7 +122,10 @@ session_start();
         </div>
         <div class="card">
             <div>
-                <div class="numbers">200</div>
+                <div class="numbers"> <?php
+                    require_once "../controller/main.php";
+                    echo calTotalPaid($_SESSION['employees']);
+                    ?></div>
                 <div class="cardName">Paid</div>
             </div>
             <div class="iconBx">
@@ -151,12 +154,8 @@ session_start();
                 <tbody>
                 <?php foreach ($_SESSION['employees'] as $employee) {
                     echo "<tr>";
-                    echo "<td>";
-                    echo $employee['fullName'];
-                    echo "</td>";
-                    echo "<td>";
-                    echo $employee['jobName'];
-                    echo "</td>";
+                    echo "<td>" . $employee['fullName'] . "</td>";
+                    echo "<td>" . $employee['jobName'] . "</td>";
                     echo "<td>";
                     if ($employee['paymentStatus']) {
                         echo "Paid";
@@ -164,8 +163,15 @@ session_start();
                         echo "Due";
                     }
                     echo "</td>";
-                    echo "<td>";
-                    echo "<span class='status available'>Available</span></td>";
+                    if (!@$employee['status']) {
+                        echo "<td><span class='status available'>Available</span></td>";
+                    } else if (@$employee['status'] == 1) {
+                        echo "<td><span class='status pending'>In Progress</span></td>";
+                    } else if (@$employee['status'] == 2) {
+                        echo "<td><span class='status off-duty'>Off-Duty</span></td>";
+                    } else {
+                        echo "<td><span class='status inprogress'>In Progress</span></td>";
+                    }
                     echo "</tr>";
                 }
                 ?>
@@ -180,54 +186,16 @@ session_start();
                 <span class="status available">Available</span>
             </div>
             <table>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>John David<br><span>Doctor Surgeon</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Maheen Callahan<br><span>Medical Records Director</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Jasmine Hutton<br><span>Legal Nurse Consultant</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Kirstie Mccoy<br><span>Nurse Anesthetist</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Rehaan Donaldson<br><span>Physician</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Amber Cox<br><span>Therapist</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Sophia-Rose Cottrell<br><span>Physician Assistant</span></h4></td>
-                </tr>
-                <tr>
-                    <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
-                    </td>
-                    <td><h4>Orla Valdez<br><span>Athletic Trainer</span></h4></td>
-                </tr>
+                <?php
+                foreach ($_SESSION['employees'] as $employee) {
+                    if (!$employee['status']) {
+                        echo "<tr>";
+                        echo "<td width='60px'><div class='imgBx'><img src='' alt=''></div></td>";
+                        echo "<td><h4>" . $employee['fullName'] . "<br><span>" . $employee['jobName'] . "</span></h4></td>";
+                        echo "</tr>";
+                    }
+                }
+                ?>
             </table>
         </div>
     </div>
