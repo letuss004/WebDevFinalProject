@@ -11,7 +11,7 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Employee and Doctor Management</title>
-    <link rel="stylesheet" href="../main_page/style/home.css">
+    <link rel="stylesheet" href="style/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
@@ -35,14 +35,14 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/main.php">
+                        <a href="main_view.php">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                             <span class="title">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../table/employee_tbl_view.php">
+                        <a href="../employee_table/employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -50,7 +50,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../list/payment.php">
+                        <a href="../payment/payment.php">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                             <span class="title">Payments</span>
@@ -182,49 +182,49 @@ session_start();
             <table>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img1.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>John David<br><span>Doctor Surgeon</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img2.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Maheen Callahan<br><span>Medical Records Director</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img3.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Jasmine Hutton<br><span>Legal Nurse Consultant</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img4.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Kirstie Mccoy<br><span>Nurse Anesthetist</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img5.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Rehaan Donaldson<br><span>Physician</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img6.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Amber Cox<br><span>Therapist</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img7.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Sophia-Rose Cottrell<br><span>Physician Assistant</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="../main_page/img/img8.jpg" alt=""></div>
+                        <div class="imgBx"><img src="" alt=""></div>
                     </td>
                     <td><h4>Orla Valdez<br><span>Athletic Trainer</span></h4></td>
                 </tr>
@@ -237,8 +237,8 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript"></script>
-<script src="../main_page/sources/main.js"></script>
-<script src="../main_page/sources/function.js"></script>
-<script src="../main_page/sources/sign_in_function.js"></script>
+<script src=".js"></script>
+<script src="tion.js"></script>
+<script src="_in_function.js"></script>
 </body>
 </html>

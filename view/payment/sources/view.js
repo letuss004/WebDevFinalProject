@@ -1,6 +1,6 @@
 var li_links = document.querySelectorAll(".links ul li");
 var view_wraps = document.querySelectorAll(".view_wrap");
-var list_view = document.querySelector(".list-view");
+var list_view = document.querySelector(".payment-view");
 var grid_view = document.querySelector(".grid-view");
 
 li_links.forEach(function(link){
@@ -17,7 +17,7 @@ li_links.forEach(function(link){
 			view.style.display = "none";
 		})
 
-		if(li_view == "list-view"){
+		if(li_view == "payment-view"){
 			list_view.style.display = "block";
 		}
 		else{

@@ -107,7 +107,7 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- -----------------------------------------------------
--- Data for table `clinic_db`.`account`
+-- Data for employee_table `clinic_db`.`account`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `clinic_db`;

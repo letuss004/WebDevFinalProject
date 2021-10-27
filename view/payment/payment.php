@@ -11,7 +11,7 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Health Clinic Management</title>
-    <link rel="stylesheet" href="../list/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
@@ -34,14 +34,14 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/main.php">
+                        <a href="../main_page/main_view.php">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                             <span class="title">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../table/employee_tbl_view.php">
+                        <a href="../employee_table/employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -305,7 +305,7 @@ session_start();
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript"></script>
-<script src="../list/sources/responsive.js"></script>
-<script src="../list/sources/view.js"></script>
+<script src="/responsive.js"></script>
+<script src="/view.js"></script>
 </body>
 </html>
