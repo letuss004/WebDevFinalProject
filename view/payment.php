@@ -11,10 +11,10 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Health Clinic Management</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
@@ -34,14 +34,14 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/main_view.php">
+                        <a href="main_view.php">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                             <span class="title">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../employee_table/employee_tbl_view.php">
+                        <a href="employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -57,7 +57,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/login_view.php">
+                        <a href="login_view.php">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                             <span class="title">Sign Out</span>
@@ -100,7 +100,7 @@ session_start();
             <div class="view_wrap list-view" style="display: block;">
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img1.jpg" alt="John David">
+                        <img src="asset/image/img1.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Dr.John David</p>
@@ -125,7 +125,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img2.jpg" alt="John David">
+                        <img src="asset/image/img2.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Prof.William Howard</p>
@@ -150,7 +150,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img3.jpg" alt="John David">
+                        <img src="asset/image/img3.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Dr.Boomman Elise</p>
@@ -175,7 +175,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img4.jpg" alt="John David">
+                        <img src="asset/image/img4.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Dr.Israr Byrne</p>
@@ -200,7 +200,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img5.jpg" alt="John David">
+                        <img src="asset/image/img5.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Phof.Ronaldo Chandler</p>
@@ -225,7 +225,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img6.jpg" alt="John David">
+                        <img src="asset/image/img6.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Dr.Pino Hubbard</p>
@@ -250,7 +250,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img7.jpg" alt="John David">
+                        <img src="asset/image/img7.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Phof.Susie Andrade</p>
@@ -275,7 +275,7 @@ session_start();
                 </div>
                 <div class="view_item">
                     <div class="vi_left">
-                        <img src="../main_page/img/img8.jpg" alt="John David">
+                        <img src="asset/image/img8.jpg" alt="John David">
                     </div>
                     <div class="vi_right">
                         <p class="title">Mixia Johnny Wilks</p>
@@ -305,7 +305,6 @@ session_start();
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript"></script>
-<script src="/responsive.js"></script>
-<script src="/view.js"></script>
+<script src="asset/js/script.js"></script>
 </body>
 </html>

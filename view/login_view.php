@@ -4,10 +4,10 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/login_style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
+    <link rel="stylesheet" href="asset/css/login_style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
     <title>Health Clinic Management</title>
 </head>
 <body>
@@ -49,11 +49,11 @@
         <img src="ine_bro.svg" class="image" alt=""/>
     </div>
 </div>
-<script src="sources/firebase_data.js"></script>
-<script src="tion.js"></script>
-<script src="sources/sign_in_function.js"></script>
+<!--<script src="asset/js/firebase_data.js"></script>-->
+<!--<script src="tion.js"></script>-->
+<!--<script src="asset/js/sign_in_function.js"></script>-->
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="server.js"></script>
+<script src="asset/js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php
+?php
 session_start();
 ?>
 
@@ -11,14 +11,14 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Employee and Doctor Management</title>
-    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="asset/css/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
           rel='stylesheet'>
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
 </head>
 <body>
@@ -42,7 +42,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../employee_table/employee_tbl_view.php">
+                        <a href="employee_tbl_view.php">
                     <span class="icon"><ion-icon name="people-circle"></ion-icon>
                     </span>
                             <span class="title">Employees</span>
@@ -50,7 +50,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../payment/payment.php">
+                        <a href="payment.php">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                             <span class="title">Payments</span>
@@ -237,8 +237,6 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript"></script>
-<script src=".js"></script>
-<script src="tion.js"></script>
-<script src="_in_function.js"></script>
+<script src="asset/js/script.js"></script>
 </body>
 </html>

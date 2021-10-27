@@ -1,6 +1,80 @@
+let li_links = document.querySelectorAll(".links ul li");
+let view_wraps = document.querySelectorAll(".view_wrap");
+let list_view = document.querySelector(".payment-view");
+let grid_view = document.querySelector(".grid-view");
+let toggle = document.querySelector('.toggle');
+let navigation = document.querySelector('.navigation');
+let main = document.querySelector('.main');
+let list = document.querySelectorAll('.navigation li');
+let sign_up_btn = document.querySelector("#sign-up-btn");
+let container = document.querySelector(".container");
+
+
 const usernameRegex = /^[a-zA-Z0-9]+$/;
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 // const nameRegex = /^[a-zA-Z\-]+$/;
+
+
+sign_up_btn.addEventListener("click", () => {
+    container.classList.add("sign-up-mode");
+
+});
+
+
+//MenuToggle
+toggle.onclick = function () {
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+}
+
+//Hovered class to selected items
+function activeLink() {
+    list.forEach((item) =>
+        item.classList.remove('hovered'));
+    this.classList.add('hovered');
+}
+
+function toggleMenu() {
+    let toggle = document.querySelector('.toggle');
+    let navigation = document.querySelector('.navigation');
+    let main = document.querySelector('.main');
+    toggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+}
+
+list.forEach((item) =>
+    item.addEventListener('mouseover', activeLink));
+
+//Scroll
+window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+li_links.forEach(function (link) {
+    link.addEventListener("click", function () {
+        li_links.forEach(function (link) {
+            link.classList.remove("active");
+        })
+
+        link.classList.add("active");
+
+        let li_view = link.getAttribute("data-view");
+
+        view_wraps.forEach(function (view) {
+            view.style.display = "none";
+        })
+
+        if (li_view === "payment-view") {
+            list_view.style.display = "block";
+        } else {
+            grid_view.style.display = "block";
+        }
+    })
+})
+
+// validate ------------------------------------------
 
 function validateLogIn() {
     let nameLogin = document.getElementById("userNameLogin")
