@@ -11,7 +11,7 @@ session_start();
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Employee and Doctor Management</title>
-    <link rel="stylesheet" href="../table/styles/table.css">
+    <link rel="stylesheet" href="styles/table.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
@@ -35,7 +35,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../main_page/main.php">
+                        <a href="../main_page/main_view.php">
                     <span class="icon"><ion-icon name="logo-buffer"></ion-icon>
                     </span>
                             <span class="title">Home</span>
@@ -50,7 +50,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="../list/payment.php">
+                        <a href="../payment/payment.php">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                             <span class="title">Payments</span>
@@ -146,7 +146,7 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript"></script>
-<script src="../table/sources/main.js"></script>
-<script src="../table/sources/script.js"></script>
+<script src="main.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

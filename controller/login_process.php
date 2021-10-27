@@ -2,16 +2,16 @@
 
 session_start();
 
-require_once "db_connection.php";
+require_once "core/db_connection.php";
 
 if (isset($conn)) {
-    require_once "account.php";
+    require_once "./../model/account_model.php";
     $username = $_POST['Uname'];
     $password = $_POST['Pass'];
     $res = getAccount($username, $password);
     if ($res->num_rows) {
-        require_once "employee.php";
-        require_once "job.php";
+        require_once "./../model/employee_model.php";
+        require_once "./../model/job_model.php";
         $acc = $res->fetch_assoc();
         $_SESSION['username'] = $acc['username'];
         $_SESSION['employees'] = readEmployeeTable();
@@ -20,8 +20,8 @@ if (isset($conn)) {
             $employee['jobName'] = $job['jobName'];
             $employee['salary'] = $job['salary'];
         }
-        header("Location: ../WebDevFinalProject/front_end/main_page/main.php");
+        header("Location: ../WebDevFinalProject/view/main_page/main_view.php");
     } else {
-        header("Location: ../WebDevFinalProject/front_end/main_page/login_view.php");
+        header("Location: ../WebDevFinalProject/view/main_page/login_view.php");
     }
 }

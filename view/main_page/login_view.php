@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../main_page/style/login_style.css">
+    <link rel="stylesheet" href="style/login_style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
@@ -14,7 +14,7 @@
 <div class="container">
     <div class="forms-container">
         <div class="signin-signup">
-            <form action="/back_end/login_process.php" class="sign-in-form" name="myForm" method="post">
+            <form action="/controller/login_process.php" class="sign-in-form" name="myForm" method="post">
                 <h2 class="title">Sign in</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
@@ -46,11 +46,11 @@
                 Back
             </button>
         </div>
-        <img src="../main_page/images/medicine_bro.svg" class="image" alt=""/>
+        <img src="ine_bro.svg" class="image" alt=""/>
     </div>
 </div>
 <script src="sources/firebase_data.js"></script>
-<script src="../main_page/sources/function.js"></script>
+<script src="tion.js"></script>
 <script src="sources/sign_in_function.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
