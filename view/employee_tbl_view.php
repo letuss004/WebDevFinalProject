@@ -15,7 +15,6 @@ session_start();
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
-
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
@@ -118,7 +117,6 @@ session_start();
             echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
             echo "</td>";
             echo "</tr>";
-            echo "something here to delete";
         } ?>
 
         <td>
@@ -180,6 +178,7 @@ session_start();
 </div>
 <div class="add" onclick="toggle()">
     <ion-icon name="add-circle-outline"></ion-icon>
+
 </div>
 
 

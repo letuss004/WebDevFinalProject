@@ -21,12 +21,19 @@
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
       <change afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/controller/login_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login_process.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/asset/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment.php" afterDir="false" />
 >>>>>>> duy
+=======
+      <change beforePath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/table/styles/addButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/styles/addButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/table/styles/editButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/styles/editButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/table/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/styles/table.css" afterDir="false" />
+>>>>>>> trung1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,11 +190,15 @@
       <workItem from="1635346127537" duration="6184000" />
       <workItem from="1635428443598" duration="1985000" />
       <workItem from="1635430674641" duration="86000" />
+<<<<<<< HEAD
 >>>>>>> origin/trung1
 =======
       <workItem from="1635354279614" duration="4798000" />
       <workItem from="1635438060138" duration="6121000" />
 >>>>>>> duy
+=======
+      <workItem from="1635438129574" duration="2091000" />
+>>>>>>> trung1
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
