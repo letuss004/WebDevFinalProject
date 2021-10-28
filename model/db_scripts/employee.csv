@@ -1,0 +1,10 @@
+employeeID,username,jobId,fullName,birthdate,phoneNumber,address,firstDate,paymentstatus
+10000,admin,1,"Le Anh Tu",2000-08-13,0336407556,"Cần Thơ",NULL,1
+10001,,2,"Le Duy	",NULL,0336323421,"Đà Nẵng",NULL,0
+10002,,3,"Pham Ngoc Mai Lam	",NULL,0336211231,"An Giang",NULL,1
+10003,,4,"Pham Chi Trung	",NULL,0912617231,"Quảng Trị",NULL,1
+10004,,5,"Dao Trong Thanh Hoa	",NULL,0123122336,"Quảng Ngãi",NULL,1
+10005,,6,"Dao Thanh Trong Hoa	",NULL,0352127556,"Thanh Hóa",NULL,1
+10006,,7,"Pham Tuan Thanh	",NULL,0336752342,"Nghệ An",NULL,1
+10007,,8,"Le Van Khoa	",NULL,0332135896,"Vĩnh Phúc",NULL,0
+10008,,9,"Le Thi Hang	",NULL,0339999999,TPHCM,NULL,1

@@ -1,0 +1,14 @@
+id,jobName,salary,type
+1,Administrator,10000,admin
+2,"Radiologic technician.",1000,medical
+3,Dietician,2000,medical
+4,"Respiratory therapist.",3000,medical
+5,"Registered nurse.",4000,medical
+6,"Occupational therapist.",5000,medical
+7,Pharmacist,6000,medical
+8,"Physician assistant.",7000,medical
+9,"Medical technologist.",6500,medical
+10,"Floor cleaner",500,normal
+11,"Waste collector",600,normal
+12,"Equipment cleaner",400,normal
+13,Guardian,350,normal
