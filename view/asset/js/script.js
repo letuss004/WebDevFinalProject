@@ -9,10 +9,6 @@ let list = document.querySelectorAll('.navigation li');
 let sign_up_btn = document.querySelector("#sign-up-btn");
 let container = document.querySelector(".container");
 
-const usernameRegex = /^[a-zA-Z0-9]+$/;
-const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-// const nameRegex = /^[a-zA-Z\-]+$/;
-
 
 sign_up_btn.addEventListener("click", () => {
     container.classList.add("sign-up-mode");
@@ -77,14 +73,15 @@ function toggleMenu() {
 
 
 function validateLogIn() {
-    let nameLogin = document.getElementById("userNameLogin")
-    let passwordLogin = document.getElementById("passLogin").value
+    let nameLogin = document.getElementById("userNameLogin");
+    let passwordLogin = document.getElementById("passLogin").value;
+    let username = document.getElementById("error-userName-login");
+    let pass = document.getElementById("error-password-login");
 
-    let username = document.getElementById("error-userName-login")
-    let pass = document.getElementById("error-password-login")
+    const usernameRegex = /^[a-zA-Z0-9]+$/;
 
-    username.innerHTML = ""
-    pass.innerHTML = ""
+    username.innerHTML = "";
+    pass.innerHTML = "";
 
     if (nameLogin.value == null || nameLogin.value === "") {
         username.innerHTML = "Username is required"
@@ -92,7 +89,8 @@ function validateLogIn() {
     } else if (!usernameRegex.test(nameLogin.value)) {
         username.innerHTML = "Username contain unexpected regex"
         return false;
-    } else if (passwordLogin.length < 6 || passwordLogin === "" || passwordLogin === null) {
+    }
+    else if (passwordLogin.length < 6 || passwordLogin === "" || passwordLogin === null) {
         pass.innerHTML = "Your password is less than 6"
         return false;
     }
@@ -113,6 +111,9 @@ function validateSignUp() {
     let errorEmail = document.getElementById("error-email-signup")
     let errorPassword = document.getElementById("error-password-signup")
     let errorCPass = document.getElementById("error-cPass-signup")
+
+    const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const nameRegex = /^[a-zA-Z\-]+$/;
 
     errorUsername.innerHTML = ""
     errorEmail.innerHTML = ""

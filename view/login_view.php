@@ -14,19 +14,23 @@
 <div class="container">
     <div class="forms-container">
         <div class="signin-signup">
-            <form action="/controller/login_process.php" class="sign-in-form" id="loginForm" method="post">
+            <form action="../controller/login_process.php" id="loginForm" class="sign-in-form" name="myForm"
+                  method="post">
                 <h2 class="title">Sign in</h2>
+
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="Uname" id="userNameLogin" placeholder="Username">
+                    <input type="text" id="userNameLogin" name="Uname" placeholder="Username">
                 </div>
                 <span id="error-userName-login"></span>
+
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input type="password" name="Pass" id="passLogin" placeholder="Password" autocomplete="off"/>
+                    <input type="password" id="passLogin" name="Pass" placeholder="Password" autocomplete="off"/>
                 </div>
                 <span id="error-password-login"></span>
-                <input type="button" id="loginButton" value="Login" class="btn solid" onclick="validateLogIn()">
+
+                <input type="button" value="Login" class="btn solid" onclick="validateLogIn()">
                 <div class="social-text">
                     <input type="checkbox" name="remember-login" value="remember-login"
                            style="color: hsl(204, 70%, 53%);">
@@ -43,12 +47,12 @@
             <p>
                 Welcome to the Health Clinic Site.
             </p>
-            <button class="btn transparent" onclick="window.location.href='../front_page/front_page.php' +
-             ''" id="sign-up-btn">
+            <button class="btn transparent" onclick="window.location.href='front_page_view.php'"
+                    id="sign-up-btn">
                 Back
             </button>
         </div>
-        <img src="ine_bro.svg" class="image" alt=""/>
+        <!--        <img src="asset/images/medicine_bro.svg" class="image" alt=""/>-->
     </div>
 </div>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>

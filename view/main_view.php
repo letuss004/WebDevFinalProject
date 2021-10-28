@@ -31,7 +31,7 @@ session_start();
                         <a href="#">
                     <span class="icon"><ion-icon name="heart-circle-sharp"></ion-icon>
                     </span>
-                            <span class="title"><h2>HealthCare</h2></span>
+                            <span class="title">HealthCare</span>
                         </a>
                     </li>
                     <li>
@@ -182,49 +182,49 @@ session_start();
             <table>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img1.jpg" alt=""></div>
                     </td>
                     <td><h4>John David<br><span>Doctor Surgeon</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img2.jpg" alt=""></div>
                     </td>
                     <td><h4>Maheen Callahan<br><span>Medical Records Director</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img3.jpg" alt=""></div>
                     </td>
                     <td><h4>Jasmine Hutton<br><span>Legal Nurse Consultant</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img4.jpg" alt=""></div>
                     </td>
                     <td><h4>Kirstie Mccoy<br><span>Nurse Anesthetist</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img5.jpg" alt=""></div>
                     </td>
                     <td><h4>Rehaan Donaldson<br><span>Physician</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img6.jpg" alt=""></div>
                     </td>
                     <td><h4>Amber Cox<br><span>Therapist</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img7.jpg" alt=""></div>
                     </td>
                     <td><h4>Sophia-Rose Cottrell<br><span>Physician Assistant</span></h4></td>
                 </tr>
                 <tr>
                     <td width="60px">
-                        <div class="imgBx"><img src="" alt=""></div>
+                        <div class="imgBx"><img src="asset/image/img8.jpg" alt=""></div>
                     </td>
                     <td><h4>Orla Valdez<br><span>Athletic Trainer</span></h4></td>
                 </tr>

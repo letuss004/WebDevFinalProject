@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="Un-finished project structure, Duy continue">
-      <change afterPath="$PROJECT_DIR$/model/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="add db_scripts">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/account_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/account_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/employee_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/employee_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic_web.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login_process.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/front_page_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/front_page_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
     </list>
@@ -34,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="duy" />
+        <entry key="$PROJECT_DIR$" value="tutest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,7 +90,9 @@
       <list>
         <item itemvalue="PHP Script.account_model.php" />
         <item itemvalue="Node.js.validate.js" />
+        <item itemvalue="PHP Script.account_model.php" />
         <item itemvalue="Node.js.validate.js" />
+        <item itemvalue="PHP Script.account_model.php" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +110,7 @@
       <workItem from="1634808321741" duration="9278000" />
       <workItem from="1635388989998" duration="2454000" />
       <workItem from="1635392208850" duration="746000" />
+      <workItem from="1635441818490" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="Un-finished project structure, Duy continue">
       <created>1635353779948</created>

@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
     <link rel="stylesheet" href="asset/css/front_style.css">
 </head>
 <body>

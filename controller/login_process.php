@@ -20,8 +20,8 @@ if (isset($conn)) {
             $employee['jobName'] = $job['jobName'];
             $employee['salary'] = $job['salary'];
         }
-        header("Location: ../WebDevFinalProject/view/main_view.php");
+        header("Location: ../view/main_view.php");
     } else {
-        header("Location: ../WebDevFinalProject/view/login_view.php");
+        header("Location: ../view/login_view.php");
     }
 }
