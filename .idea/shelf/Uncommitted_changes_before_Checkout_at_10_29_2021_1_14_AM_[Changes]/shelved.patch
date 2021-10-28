@@ -1,0 +1,21 @@
+Index: controller/core/db_connection.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\n$servername = \"localhost\";\r\n$username = \"root\";\r\n$password = \"\";\r\n//$password = \"12345678\";\r\n$database = \"clinic_db\";\r\n\r\n// Create connection\r\n$conn = new mysqli($servername, $username, $password, $database);\r\n\r\nfunction execute($sql)\r\n{\r\n    return $GLOBALS['conn']->query($sql);\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/controller/core/db_connection.php b/controller/core/db_connection.php
+--- a/controller/core/db_connection.php	(revision 6de4cdd122ec7617b55dd75954b18bab25c009d9)
++++ b/controller/core/db_connection.php	(date 1635444789633)
+@@ -2,8 +2,8 @@
+ 
+ $servername = "localhost";
+ $username = "root";
+-$password = "";
+-//$password = "12345678";
++//$password = "";
++$password = "12345678";
+ $database = "clinic_db";
+ 
+ // Create connection

@@ -8,15 +8,14 @@ if (isset($conn)) {
     require_once "./../model/account_model.php";
     $username = $_POST['Uname'];
     $password = $_POST['Pass'];
-    $res = getAccount($username, $password);
-    if ($res->num_rows) {
+    $acc = getAccount($username, $password);
+    if (isset($acc)) {
         require_once "./../model/employee_model.php";
         require_once "./../model/job_model.php";
-        $acc = $res->fetch_assoc();
-        $_SESSION['username'] = $acc['username'];
+        $_SESSION['login'] = $acc;
         $_SESSION['employees'] = readEmployeeTable();
         foreach ($_SESSION['employees'] as &$employee) {
-            $job = getJobName($employee['jobId']);
+            $job = getJob($employee['jobId']);
             $employee['jobName'] = $job['jobName'];
             $employee['salary'] = $job['salary'];
         }

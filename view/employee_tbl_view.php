@@ -88,7 +88,7 @@ session_start();
         </div>
         <!--UserImg-->
         <div class="user">
-            <span>Hi, Welcome <?php echo $_SESSION['username'] . " !" ?></span>
+            <span>Hi, Welcome <?php echo $_SESSION['login']['username'] . " !" ?></span>
         </div>
     </div>
     <table class="table">
@@ -108,8 +108,14 @@ session_start();
         <?php $cnt = 1;
         foreach ($_SESSION['employees'] as $employee) {
             echo "<tr>";
-            echo "<td>";
-            echo $cnt++;
+            echo "<td>" . $cnt++ . "</td>";
+            echo "<td>" . $employee['employeeID'] . "</td>";
+            echo "<td>" . $employee['fullName'] . "</td>";
+            echo "<td>" . $employee['phoneNumber'] . "</td>";
+            echo "<td>" . $employee['address'] . "</td>";
+            echo "<td>" . $employee['jobName'] . "</td>";
+            echo "<td>" . "<button class='btn btn-default'>" . "Edit" . "</button>";
+            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
             echo "</td>";
             echo "<td>";
             echo $employee['employeeID'];
@@ -135,7 +141,6 @@ session_start();
             echo "</button>";
 
             echo "</td>";
-
             echo "</tr>";
         } ?>
 
@@ -143,8 +148,9 @@ session_start();
             <div class="popup" id="popup">
                 <div class="overlay"></div>
                 <div class="content">
-                    <div class="close-btn" onclick="togglePop()">
-                        <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
+                    <div class="close-btn" onclick="toggle()">
+                        <ion-icon name="checkmark-done-outline"></ion-icon>&times;
+                    </div>
                     <h1>Edit Employee</h1>
                     <div class="form-edit">
                         <div class="modal-edit">
@@ -152,47 +158,54 @@ session_start();
                             <input type="text" name="id_edit" placeholder="Staff Id"><br>
                             <input type="text" name="name" placeholder="Full Name">
                             <input type="number" id="number_edit" name="phoneN" placeholder="Phone Number"><br>
-                            <input type="text"  name="address" placeholder="Adress"><br>
-                            <input type="text"  name="job" placeholder="Job"><br>
+                            <input type="text" name="address" placeholder="Adress"><br>
+                            <input type="text" name="job" placeholder="Job"><br>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="edit-btn" onclick="togglePop()"><ion-icon name="create-outline"></ion-icon></div>
-            <div class="edit">
-                <div class="edit2"><ion-icon name="trash-outline"></ion-icon></div>
+            <div class="edit-btn" onclick="togglePop()">
+                <ion-icon name="create-outline"></ion-icon>
             </div>
+            <div class="edit">
+                <div class="edit2">
+                    <ion-icon name="trash-outline"></ion-icon>
+                </div>
+            </div>
+            <!--        </td>-->
+            <!--        </tr>-->
+        </tbody>
+    </table>
 </div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+
+
 <div class="popup-1" id="popup--1">
-    <div class="overlay-1"></div>
+    <div class="overlay-1">
+
+    </div>
     <div class="content-1">
         <div class="close-btn-1" onclick="togglePopup()">
-            <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
+            <ion-icon name="checkmark-done-outline"></ion-icon>&times;
+        </div>
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
-                <input type="number"  id="number" name="number" placeholder="Number"><br>
-                <input type="text"  name="id" placeholder="Staff Id"><br>
-                <input type="text"  name="name" placeholder="Full Name"><br>
+                <input type="number" id="number" name="number" placeholder="Number"><br>
+                <input type="text" name="id" placeholder="Staff Id"><br>
+                <input type="text" name="name" placeholder="Full Name"><br>
                 <input type="number" id="number" name="phoneN" placeholder="Phone Number"><br>
-                <input type="text"  name="address" placeholder="Adress"><br>
-                <input type="text"  name="job" placeholder="Job"><br>
+                <input type="text" name="address" placeholder="Adress"><br>
+                <input type="text" name="job" placeholder="Job"><br>
             </div>
         </div>
     </div>
 </div>
-<div class="add" onclick="togglePopup()"><ion-icon name="add-circle-outline"></ion-icon></div>
+<div class="add" onclick="toggle()">
+    <ion-icon name="add-circle-outline"></ion-icon>
+</div>
 
-</div>
-</div>
 
-</div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

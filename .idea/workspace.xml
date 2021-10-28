@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="add db_scripts">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,6 +17,16 @@
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> origin/trung1
+=======
+    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
+      <change afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment.php" afterDir="false" />
+>>>>>>> duy
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +62,18 @@
     </file-type-list>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
 =======
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
 >>>>>>> origin/trung1
     <include_path>
       <path value="$PROJECT_DIR$/../../../ProgrammingStuff/Xampp/php/PEAR" />
+=======
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$USER_HOME$/ProgrammingStuff/Xampp/php/PEAR" />
+>>>>>>> duy
     </include_path>
   </component>
   <component name="ProjectId" id="1zoDPuAcjSb3RzHTCmrVBXrgIDu" />
@@ -73,12 +90,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
 >>>>>>> origin/trung1
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
+    <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> duy
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -128,10 +150,14 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="Un-finished project structure, Duy continue" />
 =======
       <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout" />
 >>>>>>> origin/trung1
+=======
+      <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout" />
+>>>>>>> duy
       <created>1634805528087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -140,6 +166,7 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <workItem from="1635388989998" duration="2454000" />
       <workItem from="1635392208850" duration="746000" />
@@ -157,6 +184,10 @@
       <workItem from="1635428443598" duration="1985000" />
       <workItem from="1635430674641" duration="86000" />
 >>>>>>> origin/trung1
+=======
+      <workItem from="1635354279614" duration="4798000" />
+      <workItem from="1635438060138" duration="6121000" />
+>>>>>>> duy
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
