@@ -142,6 +142,7 @@ session_start();
 
             echo "</td>";
             echo "</tr>";
+            echo "something here to delete";
         } ?>
 
         <td>
