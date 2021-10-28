@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
-      <change afterPath="$PROJECT_DIR$/front_end/table/sources/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/sources/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/styles/addButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/styles/editButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back_end/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/back_end/db_connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/list/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/list/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/main_page/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/login_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/main_page/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/main_page/sources/firebase_data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/main_page/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/style/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/main_page/style/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/style/login_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/table/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/styles/table.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +83,8 @@
       <workItem from="1634808321741" duration="9278000" />
       <workItem from="1635346108225" duration="18000" />
       <workItem from="1635346127537" duration="6184000" />
-      <workItem from="1635428443598" duration="1921000" />
+      <workItem from="1635428443598" duration="1985000" />
+      <workItem from="1635430674641" duration="86000" />
     </task>
     <servers />
   </component>
