@@ -49,9 +49,6 @@
         <img src="ine_bro.svg" class="image" alt=""/>
     </div>
 </div>
-<!--<script src="asset/js/firebase_data.js"></script>-->
-<!--<script src="tion.js"></script>-->
-<!--<script src="asset/js/sign_in_function.js"></script>-->
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="asset/js/script.js"></script>

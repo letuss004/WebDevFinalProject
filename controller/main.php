@@ -3,7 +3,9 @@
 function calTotalPaid($employees) {
     $res = 0;
     foreach ($employees as &$employee) {
-        $res += $employee['salary'];
+        if ($employee['paymentStatus']) {
+            $res += $employee['salary'];
+        }
     }
     return $res;
 }

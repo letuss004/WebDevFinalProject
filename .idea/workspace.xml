@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
-      <change afterPath="$PROJECT_DIR$/controller/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/attendance_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/core/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/db_connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/account_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/account_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/job_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/job_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +89,8 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
-      <workItem from="1635354279614" duration="4397000" />
+      <workItem from="1635354279614" duration="4798000" />
+      <workItem from="1635438060138" duration="2686000" />
     </task>
     <servers />
   </component>
