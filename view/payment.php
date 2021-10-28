@@ -17,6 +17,7 @@ session_start();
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
     <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
           rel='stylesheet'>
 </head>
@@ -74,15 +75,6 @@ session_start();
         <div class="toggle">
             <ion-icon name="menu-outline"></ion-icon>
         </div>
-
-        <!-- <div class="search">
-            <label>
-                <input type="text" placeholder="Search here">
-                <ion-icon name="search"></ion-icon>
-            </label>
-
-        </div> -->
-
         <div class="user">
             <span>Hi, Welcome <?php echo $_SESSION['username']." !"?></span>
         </div>
@@ -92,7 +84,7 @@ session_start();
         <div class="links">
             <ul>
                 <li data-view="list-view" class="li-list active">
-                    <i class="fas fa-th-list"></i>Employee monthly paid
+                    <i class="fas fa-th-list"></i>Employee Payment Status
                 </li>
             </ul>
         </div>

@@ -15,6 +15,7 @@ session_start();
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
@@ -126,10 +127,10 @@ session_start();
             echo $employee['jobName'];
             echo "</td>";
             echo "<td>";
-            echo "<button class='btn btn-default'>";
+            echo "<button class='btn btn1'>";
             echo "Edit";
             echo "</button>";
-            echo "<button class='btn btn-danger'>";
+            echo "<button class='btn btn2'>";
             echo "Delete";
             echo "</button>";
 
@@ -137,9 +138,58 @@ session_start();
 
             echo "</tr>";
         } ?>
-        </tbody>
 
-    </table>
+        <td>
+            <div class="popup" id="popup">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePop()">
+                        <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
+                    <h1>Edit Employee</h1>
+                    <div class="form-edit">
+                        <div class="modal-edit">
+                            <input type="number" id="number_edit" name="number" placeholder="Full Name"><br>
+                            <input type="text" name="id_edit" placeholder="Staff Id"><br>
+                            <input type="text" name="name" placeholder="Full Name">
+                            <input type="number" id="number_edit" name="phoneN" placeholder="Phone Number"><br>
+                            <input type="text"  name="address" placeholder="Adress"><br>
+                            <input type="text"  name="job" placeholder="Job"><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edit-btn" onclick="togglePop()"><ion-icon name="create-outline"></ion-icon></div>
+            <div class="edit">
+                <div class="edit2"><ion-icon name="trash-outline"></ion-icon></div>
+            </div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="popup-1" id="popup--1">
+    <div class="overlay-1"></div>
+    <div class="content-1">
+        <div class="close-btn-1" onclick="togglePopup()">
+            <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
+        <h1>Add Employee</h1>
+        <div class="form-add">
+            <div class="modal">
+                <input type="number"  id="number" name="number" placeholder="Number"><br>
+                <input type="text"  name="id" placeholder="Staff Id"><br>
+                <input type="text"  name="name" placeholder="Full Name"><br>
+                <input type="number" id="number" name="phoneN" placeholder="Phone Number"><br>
+                <input type="text"  name="address" placeholder="Adress"><br>
+                <input type="text"  name="job" placeholder="Job"><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="add" onclick="togglePopup()"><ion-icon name="add-circle-outline"></ion-icon></div>
+
+</div>
 </div>
 
 </div>
@@ -149,5 +199,6 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="asset/js/script.js">
 </script>
+
 </body>
 </html>

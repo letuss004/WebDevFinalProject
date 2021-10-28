@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="add db_scripts">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -11,6 +12,10 @@
       <change beforePath="$PROJECT_DIR$/view/front_page_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/front_page_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
+=======
+    <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/trung1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +50,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+<<<<<<< HEAD
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+=======
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+>>>>>>> origin/trung1
     <include_path>
       <path value="$PROJECT_DIR$/../../../ProgrammingStuff/Xampp/php/PEAR" />
     </include_path>
@@ -61,12 +72,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+>>>>>>> origin/trung1
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\ProgrammingProject\Web\WebDevFinalProject\view" />
       <recent name="D:\ProgrammingProject\Web\WebDevFinalProject\model" />
       <recent name="D:\ProgrammingProject\Web\WebDevFinalProject\view\asset\css" />
@@ -84,22 +101,37 @@
           <option name="interpreterName" value="PHP 8.0" />
         </PhpTestInterpreterSettings>
       </CommandLine>
+=======
+      <recent name="C:\Users\AsusTek\Project\WebDevFinalProject\front_end\table\styles" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="front_page.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/front_end/front_page/front_page.php">
+>>>>>>> origin/trung1
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="PHP Script.account_model.php" />
         <item itemvalue="Node.js.validate.js" />
         <item itemvalue="PHP Script.account_model.php" />
         <item itemvalue="Node.js.validate.js" />
         <item itemvalue="PHP Script.account_model.php" />
+=======
+        <item itemvalue="PHP Script.front_page.php" />
+>>>>>>> origin/trung1
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="Un-finished project structure, Duy continue" />
+=======
+      <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout" />
+>>>>>>> origin/trung1
       <created>1634805528087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -108,6 +140,7 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
+<<<<<<< HEAD
       <workItem from="1635388989998" duration="2454000" />
       <workItem from="1635392208850" duration="746000" />
       <workItem from="1635441818490" duration="1331000" />
@@ -118,6 +151,12 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1635353779948</updated>
+=======
+      <workItem from="1635346108225" duration="18000" />
+      <workItem from="1635346127537" duration="6184000" />
+      <workItem from="1635428443598" duration="1985000" />
+      <workItem from="1635430674641" duration="86000" />
+>>>>>>> origin/trung1
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

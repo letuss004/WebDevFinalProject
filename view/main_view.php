@@ -19,6 +19,7 @@ session_start();
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
 </head>
 <body>
@@ -76,14 +77,6 @@ session_start();
         <!--//onclick="toggleMenu();" for toggle v1-->
         <div class="toggle">
             <ion-icon name="menu-outline"></ion-icon>
-        </div>
-        <!--Search-->
-        <div class="search">
-            <label>
-                <input type="text" placeholder="Search here">
-                <ion-icon name="search"></ion-icon>
-            </label>
-
         </div>
         <!--UserImg-->
         <div class="user">
@@ -237,6 +230,7 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="asset/js/script.js"></script>
+
 
 </body>
 </html>
