@@ -12,10 +12,6 @@ session_start();
     <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Employee and Doctor Management</title>
     <link rel="stylesheet" href="../main_page/style/home.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
-          rel='stylesheet'>
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon_16x16.png">
@@ -76,14 +72,6 @@ session_start();
         <!--//onclick="toggleMenu();" for toggle v1-->
         <div class="toggle">
             <ion-icon name="menu-outline"></ion-icon>
-        </div>
-        <!--Search-->
-        <div class="search">
-            <label>
-                <input type="text" placeholder="Search here">
-                <ion-icon name="search"></ion-icon>
-            </label>
-
         </div>
         <!--UserImg-->
         <div class="user">
@@ -234,11 +222,7 @@ session_start();
 </div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript"></script>
 <script src="../main_page/sources/main.js"></script>
-<script src="../main_page/sources/function.js"></script>
-<script src="../main_page/sources/sign_in_function.js"></script>
 </body>
 </html>

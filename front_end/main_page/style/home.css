@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -100,7 +99,6 @@ body {
     text-align: start;
     white-space: nowrap;
 }
-
 /* Curve outside zone */
 
 .navigation ul li:hover a::before,
@@ -226,12 +224,12 @@ body {
 
 .cardBox .card {
     position: relative;
-    background: var(--prirmary-color);
+    background: var(--blue);
     padding: 30px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
+    pointer-events: none;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
 
@@ -239,18 +237,18 @@ body {
     position: relative;
     font-size: 2.5em;
     font-weight: 500;
-    color: var(--blue);
+    color: var(--prirmary-color);
 }
 
 .cardBox .card .cardName {
-    color: var(--black2);
+    color: var(--prirmary-color);
     font-size: 1.1em;
     margin-top: 5px;
 }
 
 .cardBox .card .iconBx {
     font-size: 3.5em;
-    color: var(--black2);
+    color: var(--prirmary-color);
 }
 
 .cardBox .card:hover {
@@ -437,21 +435,17 @@ body {
     .navigation {
         left: -300px;
     }
-
     .navigation.active {
         left: 0;
         width: 300px;
     }
-
     .main {
         width: 100%;
         left: 0;
     }
-
     .main.active {
         left: 300px;
     }
-
     .cardBox {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -461,11 +455,9 @@ body {
     .details {
         grid-template-columns: repeat(1, 1fr);
     }
-
     .recentOrders {
         overflow-x: auto;
     }
-
     .status.inprogress {
         white-space: nowrap;
     }
@@ -475,30 +467,24 @@ body {
     .cardBox {
         grid-template-columns: repeat(1, 1fr);
     }
-
     .cardHeader h2 {
         font-size: 20px;
     }
-
     .user {
         min-width: 40px;
     }
-
     .navigation {
         width: 100%;
         left: -100%;
         z-index: 1000;
     }
-
     .navigation.active {
         width: 100%;
         left: 0;
     }
-
     .toggle {
         z-index: 10001;
     }
-
     .main.active .toggle {
         position: fixed;
         right: 0;

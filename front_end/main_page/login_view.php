@@ -49,11 +49,9 @@
         <img src="../main_page/images/medicine_bro.svg" class="image" alt=""/>
     </div>
 </div>
-<script src="sources/firebase_data.js"></script>
 <script src="../main_page/sources/function.js"></script>
-<script src="sources/sign_in_function.js"></script>
+<script src="../main_page/sources/sign_in_function.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="server.js"></script>
 </body>
 </html>

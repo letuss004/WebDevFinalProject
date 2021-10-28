@@ -2,67 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/db_connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/job.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/login_process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/staff_manage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/android_chrome_192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/android_chrome_512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/apple_touch_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/favicon_16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/favicon_32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/front_page/front_page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/front_page/front_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/list/payment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/list/sources/responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/list/sources/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/list/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/images/admin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/images/log.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/images/medicine_bro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/images/register.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/Profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/login_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/sources/firebase_data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/sources/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/sources/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/sources/sign_in_function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/style/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/main_page/style/login_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/sources/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/sources/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/table/styles/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebDevFinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebDevFinalProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/table/sources/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/table/sources/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/table/styles/addButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/table/styles/editButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_end/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/back_end/db_connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/list/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/list/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/main_page/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/login_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/main_page/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/main_page/sources/firebase_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/main_page/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/main_page/style/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/main_page/style/login_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/employee_tbl_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/table/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/table/styles/table.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +47,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/../../../ProgrammingStuff/Xampp/php/PEAR" />
     </include_path>
@@ -108,13 +65,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../USTH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AsusTek\Project\WebDevFinalProject\front_end\table\styles" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="front_page.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/front_end/front_page/front_page.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.front_page.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd617331-7ee3-4bbb-b3c3-03b86ecd9c16" name="Changes" comment="" />
+      <changelist id="d4277a0b-6237-4a03-9c36-576340b3571f" name="Changes" comment="commit for checkout" />
       <created>1634805528087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -123,6 +96,9 @@
       <workItem from="1634805774304" duration="1082000" />
       <workItem from="1634807249663" duration="7000" />
       <workItem from="1634808321741" duration="9278000" />
+      <workItem from="1635346108225" duration="18000" />
+      <workItem from="1635346127537" duration="6184000" />
+      <workItem from="1635428443598" duration="1921000" />
     </task>
     <servers />
   </component>

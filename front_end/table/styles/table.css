@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -11,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -100,7 +99,6 @@ body {
     text-align: start;
     white-space: nowrap;
 }
-
 /* Curve outside zone */
 
 .navigation ul li:hover a::before,
@@ -131,7 +129,7 @@ body {
     pointer-events: none;
 }
 
-/* Main */
+
 
 .main {
     position: absolute;
@@ -200,53 +198,49 @@ table {
     table-layout: fixed;
     position: absolute;
     width: 75%;
-    left: 25%;
+    left: 23%;
     margin-bottom: -25px;
     border-collapse: collapse;
-    bottom: 270px;
+    bottom: 303px;
 }
 
 th, td {
-    padding: 10px 20px;
+    padding: 16px 13px;
     text-align: center;
-    /* word-wrap: break-word; */
     color: hsl(40, 10%, 94%);
     font-size: 16px;
 }
 
+
 td {
-    color: hsl(0, 0%, 13%);
+    color:hsl(0, 0%, 13%);
 }
 
-/* tr:nth-child(odd) {
-    background: var(--prirmary-color);
-  } */
+
 
 table tr {
     color: var(--black1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-tr:nth-child(even) {
-    background: var(--blue);
-}
-
 thead {
     background: var(--blue);
+    margin: auto;
     display: table;
-    width: 98.5%;
+    width: 102.5%;
     position: absolute;
-    right: 100px;
+    right: 44px;
+    top: 20%;
 }
 
 tbody {
-    height: 400px;
+    height: 501px;
     overflow: auto;
     display: block;
-    width: 100%;
+    width: 103%;
     position: relative;
-    right: 95px;
-    top: 85px;
+    right: 69px;
+    top: 179px;
     border: 5px solid white;
 }
 
@@ -256,36 +250,48 @@ tr {
     table-layout: fixed;
 }
 
-tr {
+tr{
     table-layout: fixed;
     width: 100%;
 }
 
-.btn {
-    font-size: 16px;
+.edit {
+    background-color: var(--prirmary-color);
+    border: none;
+    color: var(--prirmary-color);
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-.btn btn-default {
-    padding: 10px 24px;
+.edit2 {
+    line-height: 10px;
+    right: 136px;
+    top: 25%;
+    position: fixed;
+    text-align: center;
+    border: 0;
+    border-radius: 12%;
+    background-color: hsl(2, 80%, 47%);
+    color: var(--prirmary-color);
 }
 
-/* Responsive */
 
 @media (max-width: 991px) {
     .navigation {
         left: -300px;
     }
-
     .navigation.active {
         left: 0;
         width: 300px;
     }
-
     .main {
         width: 100%;
         left: 0;
     }
-
     .main.active {
         left: 300px;
     }
@@ -293,33 +299,21 @@ tr {
 }
 
 @media (max-width: 480px) {
-    .cardBox {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .cardHeader h2 {
-        font-size: 20px;
-    }
-
     .user {
         min-width: 40px;
     }
-
     .navigation {
         width: 100%;
         left: -100%;
         z-index: 1000;
     }
-
     .navigation.active {
         width: 100%;
         left: 0;
     }
-
     .toggle {
         z-index: 10001;
     }
-
     .main.active .toggle {
         position: fixed;
         right: 0;
@@ -327,3 +321,4 @@ tr {
         color: var(--prirmary-color);
     }
 }
+
