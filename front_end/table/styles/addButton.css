@@ -21,11 +21,11 @@
 .popup-1 .content-1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%,-50%) scale(0);
     background: var(--prirmary-color);
     width: 510px;
-    height: 475px;
+    height: 502px;
     z-index: 2;
     text-align: center;
     padding: 20px;
@@ -41,7 +41,7 @@
     top: 20px;
     width: 30px;
     height: 30px;
-    background:#222;
+    background:hsl(2, 80%, 47%);
     color: var(--prirmary-color);
     font-size: 25px;
     font-weight: 600;
@@ -60,7 +60,7 @@
 }
 
 .add {
-    position:absolute;
+    position: absolute;
     top: 90%;
     left: 1071px;
     transform: translate(-50%,-50%);
@@ -107,8 +107,28 @@ form {
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
-#number {
-    padding-right: 0;
-    position: relative;
-    right: 114px;
+#submit {
+    width: 150px;
+    background-color: hsl(204, 70%, 53);
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 50px;
+    color: var(--black1);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+#submit:hover {
+    background-color: var(--black2);
+}
+
+/* #number {
+  padding-right: 0;
+  position: relative;
+  right: 114px;
+} */
+

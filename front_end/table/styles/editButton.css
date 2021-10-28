@@ -20,12 +20,12 @@
 
 .popup .content {
     position: absolute;
-    top: 52%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: var(--prirmary-color);
     width: 510px;
-    height: 475px;
+    height: 486px;
     z-index: 2;
     text-align: center;
     padding: 20px;
@@ -41,7 +41,7 @@
     top: 20px;
     width: 30px;
     height: 30px;
-    background:#222;
+    background: hsl(2, 80%, 47%);
     color: var(--prirmary-color);
     font-size: 25px;
     font-weight: 600;
@@ -60,13 +60,11 @@
 }
 
 .edit-btn {
-    position: fixed;
-    top: 187px;
-    left: 69.5%;
+    position: relative;
+    top: 21px;
+    left: 22%;
     transform: translate(-50%,-50%);
-    display: block;
     border-radius: 10%;
-    padding: 0px;
     font-size: 24px;
     border: 1px solid var(--prirmary-color);
     color: var(--black1);
@@ -77,12 +75,14 @@
 
 
 .edit-btn {
-    display: flex;
-    margin: -14px 320px;
+    position: relative;
+    margin: 0px 35px;
     text-align: center;
-    content:"";
     color: var(--prirmary-color);
-    background: hsl(156, 100%, 35%);
+    background-color: var(--prirmary-color);
+    color: hsl(137, 100%, 45%);
+    justify-content: space-around;
+    align-content: center;
 }
 
 form {
@@ -107,9 +107,31 @@ form {
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
-#number_edit {
-    padding-right: 0;
-    position: relative;
-    right: 114px;
+#submit_edit {
+    width: 150px;
+    position: absolute;
+    left: 35%;
+    top: 91%;
+    background: hsl(204, 70%, 53);
+    border: none;
+    outline: none;
+    height: 38px;
+    border-radius: 50px;
+    color: var(--black1);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+#submit_edit:hover {
+    background-color: var(--black2);
+}
+
+/* #number_edit {
+padding-right: 0;
+position: relative;
+right: 114px;
+} */
 

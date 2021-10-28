@@ -139,55 +139,65 @@ session_start();
 
             echo "</tr>";
         } ?>
-        <td>
-            <div class="popup" id="popup">
-                <div class="overlay"></div>
-                <div class="content">
-                    <div class="close-btn" onclick="togglePop()">
-                        <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
-                    <h1>Edit Employee</h1>
-                    <div class="form-edit">
-                        <div class="modal-edit">
-                            <input type="number" id="number_edit" name="number" placeholder="Full Name"><br>
-                            <input type="text" name="id_edit" placeholder="Staff Id"><br>
-                            <input type="text" name="name" placeholder="Full Name">
-                            <input type="number" id="number_edit" name="phoneN" placeholder="Phone Number"><br>
-                            <input type="text"  name="address" placeholder="Adress"><br>
-                            <input type="text"  name="job" placeholder="Job"><br>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="edit-btn" onclick="togglePop()"><ion-icon name="create-outline"></ion-icon></div>
-            <div class="edit">
-                <div class="edit2"><ion-icon name="trash-outline"></ion-icon></div>
-            </div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="popup-1" id="popup--1">
-    <div class="overlay-1"></div>
-    <div class="content-1">
-        <div class="close-btn-1" onclick="togglePopup()">
-            <ion-icon name="checkmark-done-outline"></ion-icon>&times;</div>
-        <h1>Add Employee</h1>
-        <div class="form-add">
-            <div class="modal">
-                <input type="number"  id="number" name="number" placeholder="Number"><br>
-                <input type="text"  name="id" placeholder="Staff Id"><br>
-                <input type="text"  name="name" placeholder="Full Name"><br>
-                <input type="number" id="number" name="phoneN" placeholder="Phone Number"><br>
-                <input type="text"  name="address" placeholder="Adress"><br>
-                <input type="text"  name="job" placeholder="Job"><br>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="add" onclick="togglePopup()"><ion-icon name="add-circle-outline"></ion-icon></div>
+<!--        <tr>-->
+<!--            <td>1</td>-->
+<!--            <td>123456</td>-->
+<!--            <td>Trung Pham</td>-->
+<!--            <td>0949038957</td>-->
+<!--            <td>Hà Nội</td>-->
+<!--            <td>Dev</td>-->
+<!--            <td>-->
+<!--                <div class="popup" id="popup">-->
+<!--                    <div class="overlay"></div>-->
+<!--                    <div class="content">-->
+<!--                        <div class="close-btn" onclick="togglePop()">-->
+<!--                            &times;</div>-->
+<!--                        <h1>Edit Employee</h1>-->
+<!--                        <div class="form-edit">-->
+<!--                            <div class="modal-edit">-->
+<!--                                <input type="text" name="number" placeholder="Number"><br>-->
+<!--                                <input type="text" name="id_edit" placeholder="Staff Id"><br>-->
+<!--                                <input type="text" name="name" placeholder="Full Name">-->
+<!--                                <input type="text" name="phoneN" placeholder="Phone Number"><br>-->
+<!--                                <input type="text"  name="address" placeholder="Adress"><br>-->
+<!--                                <input type="text"  name="job" placeholder="Job"><br>-->
+<!--                                <div class="container_btn_edit">-->
+<!--                                    <button id="submit_edit">Submit</button>-->
+<!--                                </div>-->
+<!---->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="edit-btn" onclick="togglePop()"><ion-icon name="create-outline"></ion-icon></div>-->
+<!--                <div class="edit">-->
+<!--                    <div class="edit2"><ion-icon name="trash-outline"></ion-icon></div>-->
+<!--                </div>-->
+<!--</div>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<div class="popup-1" id="popup--1">-->
+<!--    <div class="overlay-1"></div>-->
+<!--    <div class="content-1">-->
+<!--        <div class="close-btn-1" onclick="togglePopup()">-->
+<!--            &times;</div>-->
+<!--        <h1>Add Employee</h1>-->
+<!--        <div class="form-add">-->
+<!--            <div class="modal">-->
+<!--                <input type="text"  name="number" placeholder="Number"><br>-->
+<!--                <input type="text"  name="id" placeholder="Staff Id"><br>-->
+<!--                <input type="text"  name="name" placeholder="Full Name"><br>-->
+<!--                <input type=text"" name="phoneN" placeholder="Phone Number"><br>-->
+<!--                <input type="text"  name="address" placeholder="Adress"><br>-->
+<!--                <input type="text"  name="job" placeholder="Job"><br>-->
+<!--                <div class="container_btn">-->
+<!--                    <button id="submit">Submit</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div class="add" onclick="togglePopup()"><ion-icon name="add-circle-outline"></ion-icon></div>-->
 
 </div>
 </div>
