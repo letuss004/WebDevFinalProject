@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if (!isset($_SESSION['login'])) {
+    header('Location: login_view.php');
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +63,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="login_view.php">
+                        <a href="../controller/logout.php">
                     <span class="icon"><ion-icon name="log-out"></ion-icon>
                     </span>
                             <span class="title">Sign Out</span>
@@ -87,7 +92,11 @@ session_start();
         </div>
         <!--UserImg-->
         <div class="user">
-            <span>Hi, Welcome <?php echo $_SESSION['username'] . " !" ?></span>
+            <span>Hi, Welcome <?php
+                if (isset($_SESSION['login'])) {
+                    echo $_SESSION['login']['username'] . " !";
+                }
+                ?></span>
         </div>
     </div>
 

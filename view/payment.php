@@ -84,7 +84,7 @@ session_start();
         </div> -->
 
         <div class="user">
-            <span>Hi, Welcome <?php echo $_SESSION['username']." !"?></span>
+            <span>Hi, Welcome <?php echo $_SESSION['login']['username']." !"?></span>
         </div>
     </div>
 

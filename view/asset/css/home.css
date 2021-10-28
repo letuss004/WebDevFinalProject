@@ -283,6 +283,7 @@ body {
 }
 
 .cardHeader {
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -381,9 +382,10 @@ body {
 
 .recentCustomers {
     position: relative;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background: var(--prirmary-color);
-    min-height: 500px;
+    min-height: 300px;
     padding: 20px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
