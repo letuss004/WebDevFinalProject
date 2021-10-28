@@ -14,17 +14,19 @@
 <div class="container">
     <div class="forms-container">
         <div class="signin-signup">
-            <form action="/controller/login_process.php" class="sign-in-form" name="myForm" method="post">
+            <form action="/controller/login_process.php" class="sign-in-form" id="loginForm" method="post">
                 <h2 class="title">Sign in</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="Uname" placeholder="Username">
+                    <input type="text" name="Uname" id="userNameLogin" placeholder="Username">
                 </div>
+                <span id="error-userName-login"></span>
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input type="password" name="Pass" placeholder="Password" autocomplete="off"/>
+                    <input type="password" name="Pass" id="passLogin" placeholder="Password" autocomplete="off"/>
                 </div>
-                <input type="submit" value="Login" class="btn solid" onclick="myFunction()">
+                <span id="error-password-login"></span>
+                <input type="button" id="loginButton" value="Login" class="btn solid" onclick="validateLogIn()">
                 <div class="social-text">
                     <input type="checkbox" name="remember-login" value="remember-login"
                            style="color: hsl(204, 70%, 53%);">
@@ -49,9 +51,6 @@
         <img src="ine_bro.svg" class="image" alt=""/>
     </div>
 </div>
-<!--<script src="asset/js/firebase_data.js"></script>-->
-<!--<script src="tion.js"></script>-->
-<!--<script src="asset/js/sign_in_function.js"></script>-->
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="asset/js/script.js"></script>

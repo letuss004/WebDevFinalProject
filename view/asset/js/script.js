@@ -9,7 +9,6 @@ let list = document.querySelectorAll('.navigation li');
 let sign_up_btn = document.querySelector("#sign-up-btn");
 let container = document.querySelector(".container");
 
-
 const usernameRegex = /^[a-zA-Z0-9]+$/;
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 // const nameRegex = /^[a-zA-Z\-]+$/;
@@ -20,25 +19,8 @@ sign_up_btn.addEventListener("click", () => {
 
 });
 
-
 //MenuToggle
 toggle.onclick = function () {
-    navigation.classList.toggle('active');
-    main.classList.toggle('active');
-}
-
-//Hovered class to selected items
-function activeLink() {
-    list.forEach((item) =>
-        item.classList.remove('hovered'));
-    this.classList.add('hovered');
-}
-
-function toggleMenu() {
-    let toggle = document.querySelector('.toggle');
-    let navigation = document.querySelector('.navigation');
-    let main = document.querySelector('.main');
-    toggle.classList.toggle('active');
     navigation.classList.toggle('active');
     main.classList.toggle('active');
 }
@@ -74,13 +56,31 @@ li_links.forEach(function (link) {
     })
 })
 
+//Hovered class to selected items
+function activeLink() {
+    list.forEach((item) =>
+        item.classList.remove('hovered'));
+    this.classList.add('hovered');
+}
+
+function toggleMenu() {
+    let toggle = document.querySelector('.toggle');
+    let navigation = document.querySelector('.navigation');
+    let main = document.querySelector('.main');
+    toggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+}
+
+
 // validate ------------------------------------------
+
 
 function validateLogIn() {
     let nameLogin = document.getElementById("userNameLogin")
     let passwordLogin = document.getElementById("passLogin").value
 
-    let username = document.getElementById("error-userName_login")
+    let username = document.getElementById("error-userName-login")
     let pass = document.getElementById("error-password-login")
 
     username.innerHTML = ""
@@ -97,6 +97,9 @@ function validateLogIn() {
         return false;
     }
     // document.getElementById("myForm").submit();
+    console.log("login validate success");
+    // set action if validate success
+    document.getElementById("loginForm").submit();
     return true
 }
 

@@ -141,12 +141,16 @@ session_start();
 
     </table>
 </div>
+<div class="data-service" data>
+
+</div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript"></script>
-<!--<script src="main.js"></script>-->
-<script src="asset/js/script.js"></script>
+<script src="asset/js/script.js">
+    var a = <?php html
+    ?>
+</script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 
+
+
 function readEmployeeTable()
 {
     $sql = "select * from employee";
