@@ -117,6 +117,7 @@ session_start();
             echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
             echo "</td>";
             echo "</tr>";
+            echo "something here to delete";
         } ?>
         </tbody>
 
