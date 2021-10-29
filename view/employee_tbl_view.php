@@ -128,8 +128,7 @@ if (!isset($_SESSION['login'])) {
 //            echo "</td>";
             echo "<td>";
             echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()" name="create-outline"></ion-icon>'
-                . '<ion-icon class="close-btn" name="trash-outline"></ion-icon>'
-                //. '<ion-icon class="add-btn" name="add-circle-outline"></ion-icon>'
+                . '<ion-icon class="close-btn" name="trash-outline"></ion-icon>'//. '<ion-icon class="add-btn" name="add-circle-outline"></ion-icon>'
             ;
 //            echo '<div class="edit-btn" onclick="togglePopUpEdit()">' . '<ion-icon name="create-outline"></ion-icon>' . '</div>'
 //                . '<div class="edit">' . '<div class="edit2">' . '<ion-icon name="trash-outline"></ion-icon>' . '</div>' . '</div>';
@@ -147,7 +146,8 @@ if (!isset($_SESSION['login'])) {
             <td></td>
             <td></td>
             <td>
-                <ion-icon class="add-icon-emp" name="add-circle-outline"></ion-icon>
+                <ion-icon class="add-icon-emp" onclick="togglePopUpAdd()"
+                          name="add-circle-outline"></ion-icon>
             </td>
         </tr>
         </tfoot>
