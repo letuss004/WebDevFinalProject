@@ -121,7 +121,6 @@ if (!isset($_SESSION['login'])) {
                     } else {
                         echo "Employee in waiting for paid by the system";
                     }
-
                     echo "</div>";
                     echo "</div>";
                     echo "</div>";

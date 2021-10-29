@@ -240,13 +240,6 @@ td {
 /*    border: 5px solid white;*/
 /*}*/
 
-tfoot {
-    width: 103%;
-    position: relative;
-    right: 69px;
-    top: 179px;
-    border: 5px solid white;
-}
 
 /*tr {*/
 /*    display: table;*/
@@ -355,5 +348,12 @@ tfoot {
 
 .table-emp #thead-emp {
     background-color: hsl(204, 70%, 53%);
+}
+
+.tfoot {
+
+}
+
+.add-icon-emp {
 
 }
