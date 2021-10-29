@@ -332,7 +332,6 @@
     border-collapse: collapse;
     margin-top: 40px;
     text-align: center;
-    overflow: auto;
 }
 
 .main .table-emp tbody {

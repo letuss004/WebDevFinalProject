@@ -152,9 +152,27 @@ function togglePopUpEdit() {
     document.getElementById("popupEdit").classList.toggle("active");
 }
 
+function togglePopUpEditInformation(employeeID) {
+    document.getElementById("popupEdit").classList.toggle("active");
+    console.log(employeeID)
+    let employeeIdCol = "employeeIdCol" + employeeID
+    let fullNameCol = "fullNameCol" + employeeID
+    let phoneNumberCol = "phoneNumberCol" + employeeID
+    let addressCol = "addressCol" + employeeID
+    let jobNameCol = "jobNameCol" + employeeID
+
+    document.getElementById("employeeId-edit").value = document.getElementById(employeeIdCol).innerText
+    document.getElementById("fullName-edit").value = document.getElementById(fullNameCol).innerText
+    document.getElementById("phoneNumber-edit").value = document.getElementById(phoneNumberCol).innerText
+    document.getElementById("address-edit").value = document.getElementById(addressCol).innerText
+    document.getElementById("job-edit").value = document.getElementById(jobNameCol).innerText
+}
+
 function togglePopUpAdd() {
     document.getElementById("popupAdd").classList.toggle("active");
 }
 
-function deleteEmp(empID) {
+
+function editEmployee() {
+
 }

@@ -115,20 +115,29 @@ if (!isset($_SESSION['login'])) {
         <!--        TABLE HEAD END-->
         <!--        TABLE BODY START-->
         <tbody id="tbody-emp">
-        <?php $cnt = 1;
+        <?php
+        $cnt = 1;
         foreach ($_SESSION['employees'] as $employee) {
+            $employeeId = $employee['employeeID'];
+
+            $employeeIdCol = "employeeIdCol" . $employeeId;
+            $fullNameCol = "fullNameCol" . $employeeId;
+            $phoneNumberCol = "phoneNumberCol" . $employeeId;
+            $addressCol = "addressCol" . $employeeId;
+            $jobNameCol = "jobNameCol" . $employeeId;
+
             echo "<tr>";
             echo "<td>" . $cnt++ . "</td>";
-            echo "<td>" . $employee['employeeID'] . "</td>";
-            echo "<td>" . $employee['fullName'] . "</td>";
-            echo "<td>" . $employee['phoneNumber'] . "</td>";
-            echo "<td>" . $employee['address'] . "</td>";
-            echo "<td>" . $employee['jobName'] . "</td>";
+            echo "<td id='$employeeIdCol'>" . $employee['employeeID'] . "</td>";
+            echo "<td id='$fullNameCol'>" . $employee['fullName'] . "</td>";
+            echo "<td id='$phoneNumberCol'>" . $employee['phoneNumber'] . "</td>";
+            echo "<td id='$addressCol'>" . $employee['address'] . "</td>";
+            echo "<td id='$jobNameCol'>" . $employee['jobName'] . "</td>";
 //            echo "<td>" . "<button class='btn btn-default'>" . "Edit" . "</button>";
 //            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
 //            echo "</td>";
             echo "<td>";
-            echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()" name="create-outline"></ion-icon>';
+            echo '<ion-icon class="edit-btn" onclick="togglePopUpEditInformation(' . $employeeId . ')" name="create-outline"></ion-icon>';
             echo '<a href="../controller/delete.php?id=' . $employee['employeeID'] . '"><ion-icon class="close-btn" name="trash-outline"></ion-icon></a>';
 //                . '<ion-icon class="add-btn" name="add-circle-outline"></ion-icon>'
 //            echo '<div class="edit-btn" onclick="togglePopUpEdit()">' . '<ion-icon name="create-outline"></ion-icon>' . '</div>'
@@ -147,7 +156,7 @@ if (!isset($_SESSION['login'])) {
             <td></td>
             <td></td>
             <td>
-                <ion-icon class="add-btn" id="" name="add-circle-outline"></ion-icon>
+                <ion-icon class="add-btn" onclick="togglePopUpAdd()" name="add-circle-outline"></ion-icon>
             </td>
         </tr>
         </tfoot>
@@ -163,15 +172,26 @@ if (!isset($_SESSION['login'])) {
         <div class="close-btn" onclick="togglePopUpEdit()">&times;</div>
         <h1>Edit Employee</h1>
         <div class="form-edit">
-            <div class="modal-edit">
-                <input type="text" name="fullName-edit" placeholder="Full Name"><br>
-                <input type="text" name="phoneNumber-edit" placeholder="Phone Number"><br>
-                <input type="text" name="address-edit" placeholder="Address"><br>
-                <input type="text" name="job-edit" placeholder="Job"><br>
+            <form class="modal-edit" method="post">
+                <input type="text" formmethod="POST" name="employeeId-edit" id="employeeId-edit"
+                       placeholder="Full Name"><br>
+                <input type="text" formmethod="POST" name="fullName-edit" id="fullName-edit"
+                       placeholder="Full Name"><br>
+                <input type="text" formmethod="POST" name="phoneNumber-edit" id="phoneNumber-edit"
+                       placeholder="Phone Number"><br>
+                <input type="text" formmethod="POST" name="address-edit" id="address-edit" placeholder="Address"
+                       value="3434dsadsa"><br>
+                <input type="text" formmethod="POST" name="job-edit" id="job-edit" placeholder="Job"><br>
+
                 <div class="container_btn_edit">
-                    <button id="submit_edit">Submit</button>
+                    <button type="submit" id="submit_edit">Submit</button>
                 </div>
-            </div>
+
+<!--                --><?php
+//                $a = $_POST['address-edit'];
+//                echo "something";
+//                ?>
+            </form>
         </div>
     </div>
 </div>
@@ -184,10 +204,10 @@ if (!isset($_SESSION['login'])) {
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
-                <input type="text" name="fullName-add" placeholder="Full Name"><br>
-                <input type="text" name="phoneNumber-add" placeholder="Phone Number"><br>
-                <input type="text" name="address-add" placeholder="Address"><br>
-                <input type="text" name="job-add" placeholder="Job"><br>
+                <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
+                <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
+                <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
+                <input type="text" name="job-add" id="job-add" placeholder="Job"><br>
                 <div class="container_btn">
                     <button id="submit">Submit</button>
                 </div>
