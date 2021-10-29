@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/ProgrammingStuff/Xampp/php/PEAR" />
+    </include_path>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="11c3eb63-e07c-416d-8ff5-84a5ba49d764" name="PHP" home="D:\xampp\php\php.exe" debugger_id="php.debugger.XDebug" />

@@ -172,7 +172,7 @@ if (!isset($_SESSION['login'])) {
         <div class="close-btn" onclick="togglePopUpEdit()">&times;</div>
         <h1>Edit Employee</h1>
         <div class="form-edit">
-            <form class="modal-edit" method="post">
+            <form class="modal-edit" method="post" action="../controller/edit.php">
                 <input type="text" formmethod="POST" name="employeeId-edit" id="employeeId-edit"
                        placeholder="Full Name"><br>
                 <input type="text" formmethod="POST" name="fullName-edit" id="fullName-edit"
@@ -186,11 +186,6 @@ if (!isset($_SESSION['login'])) {
                 <div class="container_btn_edit">
                     <button type="submit" id="submit_edit">Submit</button>
                 </div>
-
-<!--                --><?php
-//                $a = $_POST['address-edit'];
-//                echo "something";
-//                ?>
             </form>
         </div>
     </div>

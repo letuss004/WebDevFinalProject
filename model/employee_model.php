@@ -48,6 +48,11 @@ function add_staff($jobId, $fullName, $birthdate, $phoneNumber, $address)
     }
 }
 
+function editEmployee($employeeID, $fullName, $jobId, $address, $phoneNumber) {
+    $sql = "update employee set fullName = '$fullName', jobId = '$jobId', address = '$address', phoneNumber = '$phoneNumber' where employeeID = '$employeeID'";
+    execute($sql);
+}
+
 function edit_staff($employeeID, $username = null, $jobId = null, $fullName = null, $birthdate = null, $phoneNumber = null, $address = null, $paymentStatus = null)
 {
     $sql_set = account_sql_set_statement($username, $jobId, $fullName, $birthdate, $phoneNumber, $address, $paymentStatus);
