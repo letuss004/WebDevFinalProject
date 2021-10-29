@@ -87,7 +87,7 @@ if (!isset($_SESSION['login'])) {
         </div>
         <!--Search-->
         <div class="search">
-            <label>
+            <label id="search_label">
                 <input type="text" placeholder="Search here">
                 <ion-icon name="search"></ion-icon>
             </label>

@@ -50,8 +50,17 @@ input {
 /*    grid-row: 1 / 2;*/
 /*}*/
 
+
 form.sign-in-form {
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0rem 5rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 .title {
