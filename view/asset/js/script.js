@@ -89,8 +89,7 @@ function validateLogIn() {
     } else if (!usernameRegex.test(nameLogin.value)) {
         username.innerHTML = "Username contain unexpected regex"
         return false;
-    }
-    else if (passwordLogin.length < 6 || passwordLogin === "" || passwordLogin === null) {
+    } else if (passwordLogin.length < 6 || passwordLogin === "" || passwordLogin === null) {
         pass.innerHTML = "Your password is less than 6"
         return false;
     }
@@ -149,10 +148,21 @@ function validateUserName() {
 
 }
 
-function togglePop(){
-    document.getElementById("popup").classList.toggle("active");
+function togglePopUpEdit() {
+    document.getElementById("popupEdit").classList.toggle("active");
 }
 
-function togglePopup(){
-    document.getElementById("popup--1").classList.toggle("active");
+function togglePopUpAdd() {
+    document.getElementById("popupAdd").classList.toggle("active");
+}
+
+function togglePopDownEdit() {
+    document.getElementById("popupEdit").classList.toggle("disable");
+}
+
+function togglePopDownAdd() {
+    document.getElementById("popupAdd").classList.toggle("disable");
+}
+
+function deleteEmp(empID) {
 }

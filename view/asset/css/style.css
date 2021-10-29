@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -11,7 +12,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body {
@@ -99,6 +100,7 @@ body {
     text-align: start;
     white-space: nowrap;
 }
+
 /* Curve outside zone */
 
 .navigation ul li:hover a::before,
@@ -163,7 +165,7 @@ body {
     left: 80px;
 }
 
-.topbar {
+.topBar {
     width: 100%;
     height: 60px;
     padding: 0 10px;
@@ -183,156 +185,158 @@ body {
     cursor: pointer;
 }
 
-.view_item img{
-	width: 75px;
+.view_item img {
+    width: 75px;
 }
 
-.wrapper{
-	width: 800px;
-	margin: 20px auto;
+.wrapper {
+    width: 800px;
+    margin: 20px auto;
 }
 
-.links{
-	margin-bottom: 25px;
-	background: #fff;
-	padding: 15px;
-	border-radius: 3px;
-	position: absolute;
-	top: 3%;
-	left: 40%;
-	margin-bottom: -3px;
+.links {
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    margin-bottom: -3px;
 }
 
-.links ul{
-	display: flex;
-	justify-content: center;
+.links ul {
+    display: flex;
+    justify-content: center;
 }
 
-.links ul li{
-	margin: 0 15px;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 20px;
-	cursor: text;
+.links ul li {
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    cursor: text;
 }
 
 .links ul li:hover,
-.links ul li.active{
-	color: var(--blue);
+.links ul li.active {
+    color: var(--blue);
 }
 
-.view_main{
-	background: #fff;
-	border-radius: 3px;
-	padding: 15px;
-	position: relative;
-	left: 5%;
-	top: 29px;
-	margin-bottom: -5px;
+.view_main {
+    background: #fff;
+    border-radius: 3px;
+    padding: 15px;
+    position: relative;
+    left: 5%;
+    top: 29px;
+    margin-bottom: -5px;
 }
 
 .list-view .view_item {
-	background: #fff;
-	border: 1px solid #e2efe1;
-	margin: 10px;
-	padding: 10px 20px;
-	display: flex;
-	align-items: center;
+    background: #fff;
+    border: 1px solid #e2efe1;
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
 }
 
-.list-view .view_item:last-child{
-	margin-bottom: 0;
+.list-view .view_item:last-child {
+    margin-bottom: 0;
 }
 
-.list-view .view_item .vi_left{
-	margin-right: 25px;
+.list-view .view_item .vi_left {
+    margin-right: 25px;
 }
 
-.view_item .title{
-	font-weight: 400;
-	color:hsl(0, 0%, 13%);
+.view_item .title {
+    font-weight: 400;
+    color: hsl(0, 0%, 13%);
 }
 
-.view_item .content{
-	margin: 5px 0;
-	font-size: 14px;
-	line-height: 22px;
-	font-weight: 200;
-	color: var(--black1);
+.view_item .content {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 200;
+    color: var(--black1);
 }
 
-.view_item .btn{
-	text-decoration: none;
-	width: 125px;
-	background: var(--blue);
-	padding: 8px 5px;
-	border-radius: 3px;
-	color: #fff;
-	text-align: center;
-	font-weight: 200;
-	cursor: pointer;
+.view_item .btn {
+    text-decoration: none;
+    width: 125px;
+    background: var(--blue);
+    padding: 8px 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
 }
 
 a {
-	text-decoration: none;
-	color:var(--prirmary-color)
+    text-decoration: none;
+    color: var(--prirmary-color)
 }
 
 .overlay {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	transition: opacity 500ms;
-	visibility: hidden;
-	opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .overlay:target {
-	visibility: visible;
-	opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
-	margin: 300px auto;
-	padding: 50px;
-	background: #fff;
-	border-radius: 5px;
-	width: 30%;
-	position: relative;
-	transition: all 2s ease-in-out;
-	color: var(--black1);
-	
+    margin: 300px auto;
+    padding: 50px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 2s ease-in-out;
+    color: var(--black1);
+
 }
+
 .popup .close {
-	position: absolute;
-	top: 20px;
-	right: 30px;
-	transition: all 200ms;
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration: none;
-	color: var(--black2);
-}
-  .popup .content {
-	max-height: 30%;
-	overflow: auto;
-	color: var(--black1);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black2);
 }
 
-.view_item .btn:hover{
-	background: hsl(0, 0%, 93%);
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    color: var(--black1);
 }
 
-.grid-view{
-	width: 100%;
+.view_item .btn:hover {
+    background: hsl(0, 0%, 93%);
+}
+
+.grid-view {
+    width: 100%;
 }
 
 .grid-view .view_item {
-	display: inline-block;
+    display: inline-block;
     border: 1px solid #e2efe1;
     width: 230px;
     padding: 25px;
@@ -340,14 +344,13 @@ a {
     margin: 10px;
 }
 
-.grid-view .view_item .vi_left{
-	margin-bottom: 10px;
+.grid-view .view_item .vi_left {
+    margin-bottom: 10px;
 }
 
-.grid-view .view_item .btn{
-	margin: 0 auto;
+.grid-view .view_item .btn {
+    margin: 0 auto;
 }
-
 
 
 /* Responsive */
@@ -356,17 +359,21 @@ a {
     .navigation {
         left: -300px;
     }
+
     .navigation.active {
         left: 0;
         width: 300px;
     }
+
     .main {
         width: 100%;
-        left: 0;  
+        left: 0;
     }
+
     .main.active {
         left: 300px;
     }
+
     /* .cardBox {
         grid-template-columns: repeat(2, 1fr);
     } */
@@ -388,24 +395,30 @@ a {
     .cardBox {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .cardHeader h2 {
         font-size: 20px;
     }
+
     .user {
         min-width: 40px;
     }
+
     .navigation {
         width: 100%;
         left: -100%;
         z-index: 1000;
     }
+
     .navigation.active {
         width: 100%;
         left: 0;
     }
+
     .toggle {
         z-index: 10001;
     }
+
     .main.active .toggle {
         position: fixed;
         right: 0;

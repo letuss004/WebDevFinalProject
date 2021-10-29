@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -99,6 +100,7 @@ body {
     text-align: start;
     white-space: nowrap;
 }
+
 /* Curve outside zone */
 
 .navigation ul li:hover a::before,
@@ -130,7 +132,6 @@ body {
 }
 
 
-
 .main {
     position: absolute;
     width: calc(100% - 300px);
@@ -145,7 +146,7 @@ body {
     left: 80px;
 }
 
-.topbar {
+.topBar {
     width: 100%;
     height: 60px;
     padding: 0 10px;
@@ -194,15 +195,15 @@ body {
     font-size: 1.2em;
 }
 
-table {
-    table-layout: fixed;
-    position: absolute;
-    width: 75%;
-    left: 23%;
-    margin-bottom: -25px;
-    border-collapse: collapse;
-    bottom: 303px;
-}
+/*table {*/
+/*    table-layout: fixed;*/
+/*    position: absolute;*/
+/*    width: 75%;*/
+/*    left: 23%;*/
+/*    margin-bottom: -25px;*/
+/*    border-collapse: collapse;*/
+/*    bottom: 303px;*/
+/*}*/
 
 th, td {
     padding: 16px 13px;
@@ -213,29 +214,37 @@ th, td {
 
 
 td {
-    color:hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 13%);
 }
 
 
+/*table tr {*/
+/*    color: var(--black1);*/
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+/*}*/
 
-table tr {
-    color: var(--black1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
+/*thead {*/
+/*    background: var(--blue);*/
+/*    margin: auto;*/
+/*    display: table;*/
+/*    width: 102.5%;*/
+/*    position: absolute;*/
+/*    right: 44px;*/
+/*    top: 20%;*/
+/*}*/
 
-thead {
-    background: var(--blue);
-    margin: auto;
-    display: table;
-    width: 102.5%;
-    position: absolute;
-    right: 44px;
-    top: 20%;
-}
+/*tbody {*/
+/*    height: 515px;*/
+/*    overflow: auto;*/
+/*    display: block;*/
+/*    width: 103%;*/
+/*    position: relative;*/
+/*    right: 69px;*/
+/*    top: 179px;*/
+/*    border: 5px solid white;*/
+/*}*/
 
-tbody {
-    height: 515px;
-    overflow: auto;
+tfoot {
     display: block;
     width: 103%;
     position: relative;
@@ -244,51 +253,53 @@ tbody {
     border: 5px solid white;
 }
 
-tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-}
+/*tr {*/
+/*    display: table;*/
+/*    width: 100%;*/
+/*    table-layout: fixed;*/
+/*}*/
 
-tr{
-    table-layout: fixed;
-    width: 100%;
-}
+/*tr {*/
+/*    table-layout: fixed;*/
+/*    width: 100%;*/
+/*}*/
 
 
-
-.edit2 {
-    position: relative;
-    top: 21px;
-    left: 22%;
-    transform: translate(-50%,-50%);
-    border-radius: 10%;
-    font-size: 24px;
-    border: 1px solid var(--prirmary-color);
-    text-transform: uppercase;
-    font-weight: 400;
-    position: relative;
-    margin: 0px 35px;
-    text-align: center;
-    color: var(--prirmary-color);
-    background-color: var(--prirmary-color);
-    color: hsl(356, 100%, 41%);
-    justify-content: space-around;
-    align-content: center;
-}
+/*.edit2 {*/
+/*    position: relative;*/
+/*    top: 21px;*/
+/*    left: 22%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    border-radius: 10%;*/
+/*    font-size: 24px;*/
+/*    border: 1px solid var(--prirmary-color);*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 400;*/
+/*    position: relative;*/
+/*    margin: 0px 35px;*/
+/*    text-align: center;*/
+/*    color: var(--prirmary-color);*/
+/*    background-color: var(--prirmary-color);*/
+/*    color: hsl(356, 100%, 41%);*/
+/*    justify-content: space-around;*/
+/*    align-content: center;*/
+/*}*/
 
 @media (max-width: 991px) {
     .navigation {
         left: -300px;
     }
+
     .navigation.active {
         left: 0;
         width: 300px;
     }
+
     .main {
         width: 100%;
         left: 0;
     }
+
     .main.active {
         left: 300px;
     }
@@ -299,18 +310,22 @@ tr{
     .user {
         min-width: 40px;
     }
+
     .navigation {
         width: 100%;
         left: -100%;
         z-index: 1000;
     }
+
     .navigation.active {
         width: 100%;
         left: 0;
     }
+
     .toggle {
         z-index: 10001;
     }
+
     .main.active .toggle {
         position: fixed;
         right: 0;
@@ -319,3 +334,30 @@ tr{
     }
 }
 
+/*---------------------------------------------------------------------------------*/
+
+.main .table-emp {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1px;
+    overflow: auto;
+    width: 70%;
+    height: 200px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.main .table-emp tbody tr {
+    border-bottom: #777777 solid 1px;
+    height: 10px;
+}
+
+.main .table-emp tbody tr td {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.table-emp #thead-emp {
+    background: darkblue;
+}

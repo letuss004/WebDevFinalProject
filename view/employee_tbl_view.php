@@ -26,6 +26,7 @@ if (!isset($_SESSION['login'])) {
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 </head>
 <body>
+<!--NAV START-->
 <header>
     <div class="container">
         <div class="navigation">
@@ -74,9 +75,12 @@ if (!isset($_SESSION['login'])) {
         </div>
     </div>
 </header>
-<!--Main-->
+<!--NAV END-->
+
+<!--Main START-->
 <div class="main">
-    <div class="topbar">
+    <!--    TOP BAR START-->
+    <div class="topBar">
         <!--//onclick="toggleMenu();" for toggle v1-->
         <div class="toggle">
             <ion-icon name="menu-outline"></ion-icon>
@@ -87,16 +91,18 @@ if (!isset($_SESSION['login'])) {
                 <input type="text" placeholder="Search here">
                 <ion-icon name="search"></ion-icon>
             </label>
-
         </div>
-        <!--UserImg-->
+        <!--Hello admin-->
         <div class="user">
             <span>Hi, Welcome <?php echo $_SESSION['login']['username'] . " !" ?></span>
         </div>
     </div>
-    <table class="table">
-        <thead>
-        <tr id="uptop">
+    <!--    TOP BAR END-->
+    <!--        TABLE START-->
+    <table class="table-emp">
+        <!--        TABLE HEAD START-->
+        <thead id="thead-emp">
+        <tr id="trow-header">
             <th>STT</th>
             <th>Staff ID</th>
             <th>Full Name</th>
@@ -105,9 +111,10 @@ if (!isset($_SESSION['login'])) {
             <th>Job</th>
             <th>Action</th>
         </tr>
-
         </thead>
-        <tbody>
+        <!--        TABLE HEAD END-->
+        <!--        TABLE BODY START-->
+        <tbody id="tbody-emp">
         <?php $cnt = 1;
         foreach ($_SESSION['employees'] as $employee) {
             echo "<tr>";
@@ -117,62 +124,61 @@ if (!isset($_SESSION['login'])) {
             echo "<td>" . $employee['phoneNumber'] . "</td>";
             echo "<td>" . $employee['address'] . "</td>";
             echo "<td>" . $employee['jobName'] . "</td>";
-            echo "<td>" . "<button class='btn btn-default'>" . "Edit" . "</button>";
-            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
+//            echo "<td>" . "<button class='btn btn-default'>" . "Edit" . "</button>";
+//            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
+//            echo "</td>";
+            echo "<td>";
+            echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()"></ion-icon>'
+                . '<ion-icon class="close-btn" onclick="deleteEmp()" name="trash-outline"></ion-icon>';
+//            echo '<div class="edit-btn" onclick="togglePopUpEdit()">' . '<ion-icon name="create-outline"></ion-icon>' . '</div>'
+//                . '<div class="edit">' . '<div class="edit2">' . '<ion-icon name="trash-outline"></ion-icon>' . '</div>' . '</div>';
             echo "</td>";
             echo "</tr>";
         } ?>
-
-        <td>
-            <div class="popup" id="popup">
-                <div class="overlay"></div>
-                <div class="content">
-                    <div class="close-btn" onclick="togglePop()">&times;
-                    </div>
-                    <h1>Edit Employee</h1>
-                    <div class="form-edit">
-                        <div class="modal-edit">
-                            <input type="text" name="number" placeholder="Full Name"><br>
-                            <input type="text" name="id_edit" placeholder="Staff Id"><br>
-                            <input type="text" name="name" placeholder="Full Name">
-                            <input type="text" name="phoneN" placeholder="Phone Number"><br>
-                            <input type="text" name="address" placeholder="Address"><br>
-                            <input type="text" name="job" placeholder="Job"><br>
-                            <div class="container_btn_edit">
-                                <button id="submit_edit">Submit</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="edit-btn" onclick="togglePop()">
-                <ion-icon name="create-outline"></ion-icon>
-            </div>
-            <div class="edit">
-                <div class="edit2">
-                    <ion-icon name="trash-outline"></ion-icon>
-                </div>
-            </div>
-            <!--        </td>-->
-            <!--        </tr>-->
         </tbody>
+        <!--        TABLE BODY END-->
+        <tfoot id="tfoot-emp">
+        <ion-icon name="add-circle-outline"></ion-icon>
+        </tfoot>
     </table>
+    <!--        TABLE END-->
 </div>
+<!--MAIN END-->
 
-
-<div class="popup-1" id="popup--1">
-    <div class="overlay-1">
-    </div>
-    <div class="content-1">
-        <div class="close-btn-1" onclick="togglePopup()">&times;
+<!--        POP UP EDIT START-->
+<div class="popup" id="popupEdit">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopUpEdit()">&times;</div>
+        <h1>Edit Employee</h1>
+        <div class="form-edit">
+            <div class="modal-edit">
+                <input type="text" name="number" placeholder="Full Name"><br>
+                <input type="text" name="id_edit" placeholder="Staff Id"><br>
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="text" name="phoneN" placeholder="Phone Number"><br>
+                <input type="text" name="address" placeholder="Address"><br>
+                <input type="text" name="job" placeholder="Job"><br>
+                <div class="container_btn_edit">
+                    <button id="submit_edit">Submit</button>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
+<!--        POP UP EDIT END-->
+<!--POPUP ADD DIALOG START-->
+<div class="popup-1" id="popupAdd">
+    <div class="overlay-1"></div>
+    <div class="content-1">
+        <div class="close-btn-1" onclick="togglePopUpAdd()">&times;</div>
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
-                <input type="text"  name="number" placeholder="Number"><br>
+                <input type="text" name="number" placeholder="Number"><br>
                 <input type="text" name="id" placeholder="Staff Id"><br>
                 <input type="text" name="name" placeholder="Full Name"><br>
-                <input type="text"  name="phoneN" placeholder="Phone Number"><br>
+                <input type="text" name="phoneN" placeholder="Phone Number"><br>
                 <input type="text" name="address" placeholder="Address"><br>
                 <input type="text" name="job" placeholder="Job"><br>
                 <div class="container_btn">
@@ -182,19 +188,12 @@ if (!isset($_SESSION['login'])) {
         </div>
     </div>
 </div>
-<div class="add" onclick="togglePopup()">
-    <ion-icon name="add-circle-outline"></ion-icon>
-
-</div>
-
+<!--POPUP ADD DIALOG END-->
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="asset/js/script.js">
-</script>
-
-
+<script src="asset/js/script.js"></script>
 </body>
 </html>
