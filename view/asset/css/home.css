@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 :root {
     --background-color: #00008b;
-    --prirmary-color: #fff;
+    --primary-color: #fff;
     --blue: hsl(204, 70%, 53%);
     --black1: hsl(0, 0%, 13%);
     --black2: hsl(0, 0%, 60%);
@@ -55,7 +55,7 @@
 
 .navigation ul li:hover,
 .navigation ul li.hovered {
-    background: var(--prirmary-color);
+    background: var(--primary-color);
 }
 
 .navigation ul li:nth-child(1) {
@@ -68,7 +68,7 @@
     display: block;
     width: 100%;
     display: flex;
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -136,7 +136,7 @@
     width: calc(100% - 300px);
     left: 300px;
     min-height: 100vh;
-    background: var(--prirmary-color);
+    background: var(--primary-color);
     transition: 0.5s;
 }
 
@@ -220,18 +220,18 @@
     position: relative;
     font-size: 2.5em;
     font-weight: 500;
-    color: var(--prirmary-color);
+    color: var(--primary-color);
 }
 
 .cardBox .card .cardName {
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     font-size: 1.1em;
     margin-top: 5px;
 }
 
 .cardBox .card .iconBx {
     font-size: 3.5em;
-    color: var(--prirmary-color);
+    color: var(--primary-color);
 }
 
 .cardBox .card:hover {
@@ -257,7 +257,7 @@
     position: relative;
     display: grid;
     min-height: 500px;
-    background: var(--prirmary-color);
+    background: var(--primary-color);
     padding: 20px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
@@ -279,7 +279,7 @@
     position: relative;
     padding: 5px 10px;
     background: var(--blue);
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     text-decoration: none;
     border-radius: 6px;
     pointer-events: none;
@@ -302,7 +302,7 @@
 
 /*.details .recentOrders table tbody tr:hover {*/
 /*    background: var(--blue);*/
-/*    color: var(--prirmary-color);*/
+/*    color: var(--primary-color);*/
 /*}*/
 
 /*.details .recentOrders table tbody tr:last-child {*/
@@ -325,10 +325,40 @@
 /*    text-align: center;*/
 /*}*/
 
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#table_thead {
+    font-weight: 600;
+}
+
+#table_status tr {
+    color: var(--black1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#table_status tr:hover {
+    background: var(--blue);
+    color: var(--primary-color);
+}
+
+#table_status tr td {
+    padding: 10px;
+}
+
+#table_status tr td:last-child {
+    text-align: end;
+}
+
+
 .status.available {
     padding: 2px 4px;
     background: rgba(38, 194, 129, 1);
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
@@ -337,7 +367,7 @@
 .status.pending {
     padding: 2px 4px;
     background: rgba(252, 185, 65, 1);
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
@@ -346,7 +376,7 @@
 .status.off-duty {
     padding: 2px 4px;
     background: hsl(356, 100%, 41%);
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
@@ -355,7 +385,7 @@
 .status.inprogress {
     padding: 2px 4px;
     background: #1795c1;
-    color: var(--prirmary-color);
+    color: var(--primary-color);
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
@@ -365,7 +395,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background: var(--prirmary-color);
+    background: var(--primary-color);
     min-height: 300px;
     padding: 20px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
@@ -413,6 +443,32 @@
 /*    color: var(--prirmary-color);*/
 
 /*}*/
+
+#list {
+    padding: 12px 10px;
+}
+
+#list tr td h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+
+}
+
+#list span {
+    font-size: 14px;
+    color: var(--black2);
+}
+
+#list tr:hover {
+    background: var(--blue);
+    color: var(--primary-color);
+}
+
+#list tr:hover td h4 span {
+    color: var(--primary-color);
+}
+
 
 /* Responsive */
 
