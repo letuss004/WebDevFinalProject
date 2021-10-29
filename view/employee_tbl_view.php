@@ -10,16 +10,17 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
-    <title>Employee and Doctor Management</title>
+    <title>Health Clinic Management</title>
     <link rel="stylesheet" href="asset/css/table.css">
+    <link rel="stylesheet" href="asset/css/addButton.css">
+    <link rel="stylesheet" href="asset/css/editButton.css">
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
-          rel='stylesheet'>
 </head>
 <body>
 <header>
@@ -123,19 +124,20 @@ session_start();
             <div class="popup" id="popup">
                 <div class="overlay"></div>
                 <div class="content">
-                    <div class="close-btn" onclick="toggle()">
-                        <ion-icon name="checkmark-done-outline"></ion-icon>&times;
+                    <div class="close-btn" onclick="togglePop()">&times;
                     </div>
                     <h1>Edit Employee</h1>
                     <div class="form-edit">
                         <div class="modal-edit">
-                            <input type="number" id="number_edit" name="number" placeholder="Full Name"><br>
+                            <input type="text" name="number" placeholder="Full Name"><br>
                             <input type="text" name="id_edit" placeholder="Staff Id"><br>
                             <input type="text" name="name" placeholder="Full Name">
-                            <input type="number" id="number_edit" name="phoneN" placeholder="Phone Number"><br>
-                            <input type="text" name="address" placeholder="Adress"><br>
+                            <input type="text" name="phoneN" placeholder="Phone Number"><br>
+                            <input type="text" name="address" placeholder="Address"><br>
                             <input type="text" name="job" placeholder="Job"><br>
-
+                            <div class="container_btn_edit">
+                                <button id="submit_edit">Submit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -157,26 +159,27 @@ session_start();
 
 <div class="popup-1" id="popup--1">
     <div class="overlay-1">
-
     </div>
     <div class="content-1">
-        <div class="close-btn-1" onclick="togglePopup()">
-            <ion-icon name="checkmark-done-outline"></ion-icon>&times;
+        <div class="close-btn-1" onclick="togglePopup()">&times;
         </div>
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
-                <input type="number" id="number" name="number" placeholder="Number"><br>
+                <input type="text"  name="number" placeholder="Number"><br>
                 <input type="text" name="id" placeholder="Staff Id"><br>
                 <input type="text" name="name" placeholder="Full Name"><br>
-                <input type="number" id="number" name="phoneN" placeholder="Phone Number"><br>
-                <input type="text" name="address" placeholder="Adress"><br>
+                <input type="text"  name="phoneN" placeholder="Phone Number"><br>
+                <input type="text" name="address" placeholder="Address"><br>
                 <input type="text" name="job" placeholder="Job"><br>
+                <div class="container_btn">
+                    <button id="submit">Submit</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div class="add" onclick="toggle()">
+<div class="add" onclick="togglePopup()">
     <ion-icon name="add-circle-outline"></ion-icon>
 
 </div>
@@ -188,6 +191,7 @@ session_start();
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="asset/js/script.js">
 </script>
+
 
 </body>
 </html>

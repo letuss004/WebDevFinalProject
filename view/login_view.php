@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="asset/css/login_style.css">
+    <title>Health Clinic Management</title>
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
-    <title>Health Clinic Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -52,10 +54,10 @@
                 Back
             </button>
         </div>
-        <!--        <img src="asset/images/medicine_bro.svg" class="image" alt=""/>-->
+<!--                <img src="asset/images/medicine_bro.svg" class="image" alt=""/>-->
     </div>
 </div>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="asset/js/script.js"></script>
 
