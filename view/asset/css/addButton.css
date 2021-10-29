@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 :root {
     --background-color: #00008b;
     --prirmary-color: #fff;
@@ -7,17 +8,17 @@
     --black2: hsl(0, 0%, 60%);
 }
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
 .popup-1 .overlay-1 {
-    position:fixed;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: 100vh;
-    background:rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1;
     display: none;
 }
@@ -26,7 +27,7 @@
     position: absolute;
     top: 50%;
     left: 52%;
-    transform: translate(-50%,-50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
     background: var(--prirmary-color);
     width: 510px;
     height: 502px;
@@ -35,7 +36,7 @@
     padding: 20px;
     border-radius: 24px;
     box-sizing: border-box;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .popup-1 .close-btn-1 {
@@ -45,7 +46,7 @@
     top: 20px;
     width: 30px;
     height: 30px;
-    background:hsl(2, 80%, 47%);
+    background: hsl(2, 80%, 47%);
     color: var(--prirmary-color);
     font-size: 25px;
     font-weight: 600;
@@ -60,14 +61,14 @@
 
 .popup-1.active .content-1 {
     transition: all 300ms ease-in-out;
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .add {
     position: absolute;
     top: 90%;
     left: 1071px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     display: block;
     border-radius: 10%;
     padding: 0px;
@@ -84,21 +85,21 @@
     display: flex;
     margin: 0px 305px;
     text-align: center;
-    content:"";
+    content: "";
     color: var(--black2);
     background: var(--prirmary-color);
 }
 
-form {
-    width: fit-content;
+/*form {*/
+/*    width: fit-content;*/
 
-}
+/*}*/
 
 .form-add {
     display: grid;
 }
 
-.modal input{
+.modal input {
     grid-template-columns: 1fr;
     position: relative;
     right: 3px;
@@ -108,12 +109,12 @@ form {
     margin: 18px;
     border-radius: 5px;
     border: 0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
 
 #submit {
     width: 150px;
-    background-color: hsl(204, 70%, 53);
+    background-color: hsl(204, 70%, 53%);
     border: none;
     outline: none;
     height: 40px;
@@ -136,3 +137,12 @@ form {
   right: 114px;
 } */
 
+/*-------------------------------------------------------------------------------------------------*/
+.add-icon-emp {
+    color: darkblue;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/addButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/addButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/editButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/editButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/login_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/asset/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/payment.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,7 @@
       <updated>1635505399716</updated>
       <workItem from="1635505402065" duration="568000" />
       <workItem from="1635505997453" duration="1614000" />
-      <workItem from="1635508825605" duration="10600000" />
+      <workItem from="1635508825605" duration="14040000" />
     </task>
     <task id="LOCAL-00001" summary="no more yellow :)">
       <created>1635505463776</created>
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635519319386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1635519962144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635519962144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

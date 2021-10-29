@@ -156,13 +156,5 @@ function togglePopUpAdd() {
     document.getElementById("popupAdd").classList.toggle("active");
 }
 
-function togglePopDownEdit() {
-    document.getElementById("popupEdit").classList.toggle("disable");
-}
-
-function togglePopDownAdd() {
-    document.getElementById("popupAdd").classList.toggle("disable");
-}
-
 function deleteEmp(empID) {
 }

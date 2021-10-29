@@ -16,7 +16,7 @@ input {
     width: 100%;
     background-color: #fff;
     min-height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .forms-container {
@@ -38,17 +38,17 @@ input {
     z-index: 5;
 }
 
-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0rem 5rem;
-    transition: all 0.2s 0.7s;
-    overflow: hidden;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
+/*form {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    padding: 0rem 5rem;*/
+/*    transition: all 0.2s 0.7s;*/
+/*    overflow: hidden;*/
+/*    grid-column: 1 / 2;*/
+/*    grid-row: 1 / 2;*/
+/*}*/
 
 form.sign-in-form {
     z-index: 2;
