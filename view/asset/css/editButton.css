@@ -91,7 +91,6 @@
 /*}*/
 .edit-btn {
     color: lawngreen;
-    text-align: center;
     width: 25px;
     height: 25px;
     margin-right: 5px;
@@ -101,11 +100,14 @@
     color: red;
     width: 25px;
     height: 25px;
+    margin-right: 5px;
+
 }
 
-form {
-    width: fit-content;
-
+.add-btn {
+    color: aqua;
+    width: 25px;
+    height: 25px;
 }
 
 .form-edit {
@@ -130,7 +132,7 @@ form {
     position: absolute;
     left: 35%;
     top: 91%;
-    background: hsl(204, 70%, 53);
+    background: hsl(204, 70%, 53%);
     border: none;
     outline: none;
     height: 38px;

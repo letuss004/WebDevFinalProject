@@ -128,8 +128,10 @@ if (!isset($_SESSION['login'])) {
 //            echo "<button class='btn btn-danger'>" . "Delete" . "</button>";
 //            echo "</td>";
             echo "<td>";
-            echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()"></ion-icon>'
-                . '<ion-icon class="close-btn" onclick="deleteEmp()" name="trash-outline"></ion-icon>';
+            echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()" name="create-outline"></ion-icon>'
+                . '<ion-icon class="close-btn" name="trash-outline"></ion-icon>'
+//                . '<ion-icon class="add-btn" name="add-circle-outline"></ion-icon>'
+            ;
 //            echo '<div class="edit-btn" onclick="togglePopUpEdit()">' . '<ion-icon name="create-outline"></ion-icon>' . '</div>'
 //                . '<div class="edit">' . '<div class="edit2">' . '<ion-icon name="trash-outline"></ion-icon>' . '</div>' . '</div>';
             echo "</td>";

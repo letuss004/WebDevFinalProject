@@ -168,15 +168,11 @@ body {
 
 
 .search {
-    position: relative;
     width: 400px;
-    margin: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.search label {
-    position: relative;
-    width: 100%;
-}
 
 .search label input {
     width: 100%;
@@ -245,7 +241,6 @@ td {
 /*}*/
 
 tfoot {
-    display: block;
     width: 103%;
     position: relative;
     right: 69px;
@@ -359,5 +354,6 @@ tfoot {
 }
 
 .table-emp #thead-emp {
-    background: darkblue;
+    background-color: hsl(204, 70%, 53%);
+
 }
