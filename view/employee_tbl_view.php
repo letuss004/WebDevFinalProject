@@ -1,5 +1,9 @@
 <?php
 session_start();
+
+if (!isset($_SESSION['login'])) {
+    header('Location: login_view.php');
+}
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +54,7 @@ session_start();
                         </a>
                     </li>
                     <li>
-                        <a href="payment.php">
+                        <a href="payment_view.php">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                             <span class="title">Payments</span>

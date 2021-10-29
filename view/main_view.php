@@ -52,7 +52,7 @@ if (!isset($_SESSION['login'])) {
                         </a>
                     </li>
                     <li>
-                        <a href="payment.php">
+                        <a href="payment_view.php">
                     <span class="icon"><ion-icon name="cash"></ion-icon>
                     </span>
                             <span class="title">Payments</span>
