@@ -148,3 +148,11 @@ function validateEmail() {
 function validateUserName() {
 
 }
+
+function togglePop(){
+    document.getElementById("popup").classList.toggle("active");
+}
+
+function togglePopup(){
+    document.getElementById("popup--1").classList.toggle("active");
+}
