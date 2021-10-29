@@ -123,7 +123,7 @@ session_start();
             <div class="popup" id="popup">
                 <div class="overlay"></div>
                 <div class="content">
-                    <div class="close-btn" onclick="toggle()">
+                    <div class="close-btn" onclick="togglePopup()">
                         <ion-icon name="checkmark-done-outline"></ion-icon>&times;
                     </div>
                     <h1>Edit Employee</h1>
@@ -176,7 +176,7 @@ session_start();
         </div>
     </div>
 </div>
-<div class="add" onclick="toggle()">
+<div class="add" onclick="togglePopup()">
     <ion-icon name="add-circle-outline"></ion-icon>
 
 </div>
