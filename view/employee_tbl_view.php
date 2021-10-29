@@ -87,7 +87,6 @@ if (!isset($_SESSION['login'])) {
         </div>
         <!--Search-->
         <div class="search">
-            <ion-icon class="search-icon" name="search"></ion-icon>
             <label>
                 <input type="text" placeholder="Search here">
                 <ion-icon name="search"></ion-icon>
@@ -130,7 +129,8 @@ if (!isset($_SESSION['login'])) {
 //            echo "</td>";
             echo "<td>";
             echo '<ion-icon class="edit-btn" onclick="togglePopUpEdit()" name="create-outline"></ion-icon>';
-            echo '<a href="../controller/delete.php?id='.$employee['employeeID'].'"><ion-icon class="close-btn" name="trash-outline"></ion-icon></a>';
+            echo '<a href="../controller/delete.php?id=' . $employee['employeeID'] . '"><ion-icon class="close-btn" name="trash-outline"></ion-icon></a>';
+//                . '<ion-icon class="add-btn" name="add-circle-outline"></ion-icon>'
 //            echo '<div class="edit-btn" onclick="togglePopUpEdit()">' . '<ion-icon name="create-outline"></ion-icon>' . '</div>'
 //                . '<div class="edit">' . '<div class="edit2">' . '<ion-icon name="trash-outline"></ion-icon>' . '</div>' . '</div>';
             echo "</td>";
@@ -138,7 +138,7 @@ if (!isset($_SESSION['login'])) {
         } ?>
         </tbody>
         <!--        TABLE BODY END-->
-        <tfoot class="tfoot" id="tfoot-emp">
+        <tfoot id="tfoot-emp">
         <tr>
             <td></td>
             <td></td>
@@ -147,8 +147,7 @@ if (!isset($_SESSION['login'])) {
             <td></td>
             <td></td>
             <td>
-                <ion-icon class="add-icon-emp" onclick="togglePopUpAdd()"
-                          name="add-circle-outline"></ion-icon>
+                <ion-icon class="add-btn" id="" name="add-circle-outline"></ion-icon>
             </td>
         </tr>
         </tfoot>
@@ -165,12 +164,10 @@ if (!isset($_SESSION['login'])) {
         <h1>Edit Employee</h1>
         <div class="form-edit">
             <div class="modal-edit">
-                <input type="text" name="number" placeholder="Full Name"><br>
-                <input type="text" name="id_edit" placeholder="Staff Id"><br>
-                <input type="text" name="name" placeholder="Full Name">
-                <input type="text" name="phoneN" placeholder="Phone Number"><br>
-                <input type="text" name="address" placeholder="Address"><br>
-                <input type="text" name="job" placeholder="Job"><br>
+                <input type="text" name="fullName-edit" placeholder="Full Name"><br>
+                <input type="text" name="phoneNumber-edit" placeholder="Phone Number"><br>
+                <input type="text" name="address-edit" placeholder="Address"><br>
+                <input type="text" name="job-edit" placeholder="Job"><br>
                 <div class="container_btn_edit">
                     <button id="submit_edit">Submit</button>
                 </div>
@@ -187,12 +184,10 @@ if (!isset($_SESSION['login'])) {
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
-                <input type="text" name="number" placeholder="Number"><br>
-                <input type="text" name="id" placeholder="Staff Id"><br>
-                <input type="text" name="name" placeholder="Full Name"><br>
-                <input type="text" name="phoneN" placeholder="Phone Number"><br>
-                <input type="text" name="address" placeholder="Address"><br>
-                <input type="text" name="job" placeholder="Job"><br>
+                <input type="text" name="fullName-add" placeholder="Full Name"><br>
+                <input type="text" name="phoneNumber-add" placeholder="Phone Number"><br>
+                <input type="text" name="address-add" placeholder="Address"><br>
+                <input type="text" name="job-add" placeholder="Job"><br>
                 <div class="container_btn">
                     <button id="submit">Submit</button>
                 </div>
