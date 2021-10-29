@@ -1,6 +1,6 @@
 <?php
 
-
+require_once "job_model.php";
 
 function readEmployeeTable()
 {
@@ -13,6 +13,16 @@ function readEmployeeTable()
     return $employees;
 }
 
+function readEmployeeWithAllAttributes() {
+    $employees = readEmployeeTable();
+    foreach ($employees as &$employee) {
+        $job = getJob($employee['jobId']);
+        $employee['jobName'] = $job['jobName'];
+        $employee['salary'] = $job['salary'];
+    }
+    return $employees;
+}
+
 function delete_staff($employeeID)
 {
     if (isset($employeeID)) {
@@ -20,7 +30,6 @@ function delete_staff($employeeID)
         $sql = "DELETE FROM employee WHERE employeeID = '$employeeID'";
         execute($sql);
     }
-
 }
 
 function kill_data_fk($employeeID)

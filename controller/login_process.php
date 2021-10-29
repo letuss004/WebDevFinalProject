@@ -13,12 +13,7 @@ if (isset($conn)) {
         require_once "./../model/employee_model.php";
         require_once "./../model/job_model.php";
         $_SESSION['login'] = $acc;
-        $_SESSION['employees'] = readEmployeeTable();
-        foreach ($_SESSION['employees'] as &$employee) {
-            $job = getJob($employee['jobId']);
-            $employee['jobName'] = $job['jobName'];
-            $employee['salary'] = $job['salary'];
-        }
+        $_SESSION['employees'] = readEmployeeWithAllAttributes();
         header("Location: ../view/main_view.php");
     } else {
         header("Location: ../view/login_view.php");
