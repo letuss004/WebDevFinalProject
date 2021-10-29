@@ -9,7 +9,6 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
     <title>Health Clinic Management</title>
     <link rel="stylesheet" href="asset/css/table.css">
     <link rel="stylesheet" href="asset/css/addButton.css">
@@ -121,7 +120,7 @@ session_start();
         } ?>
 
         <td>
-            <div class="popup" id="popup">
+          <div class="popup" id="popup"> <!--  Edit button-->
                 <div class="overlay"></div>
                 <div class="content">
                     <div class="close-btn" onclick="togglePop()">&times;
@@ -157,7 +156,7 @@ session_start();
 </div>
 
 
-<div class="popup-1" id="popup--1">
+<div class="popup-1" id="popup--1"> <!--  Add button-->
     <div class="overlay-1">
     </div>
     <div class="content-1">
