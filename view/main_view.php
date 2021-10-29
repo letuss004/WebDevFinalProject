@@ -140,8 +140,8 @@ if (!isset($_SESSION['login'])) {
                 <h2>Employees Status</h2>
                 <a href="#" class="view">Status</a>
             </div>
-            <table>
-                <thead>
+            <table id="table_status">
+                <thead id ="table_thead">
                 <tr>
                     <td>Staffs Name</td>
                     <td>Jobs</td>
@@ -183,7 +183,7 @@ if (!isset($_SESSION['login'])) {
                 <h2>Doctor & Nurses</h2>
                 <span class="status available">Available</span>
             </div>
-            <table>
+            <table id="list">
 
                 <?php
                 foreach ($_SESSION['employees'] as $employee) {

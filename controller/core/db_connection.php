@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-//$password = "";
-$password = "12345678";
+$password = "";
+//$password = "12345678";
 $database = "clinic_db";
 
 // Create connection
