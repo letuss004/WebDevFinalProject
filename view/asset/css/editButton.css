@@ -112,6 +112,13 @@
     height: 25px;
 }
 
+.refresh-btn {
+    margin-top: 10px;
+    color: hsl(60, 100%, 47%);
+    width: 25px;
+    height: 25px;
+}
+
 .form-edit {
     display: grid;
 }
@@ -131,7 +138,6 @@
 
 #submit_edit {
     width: 150px;
-    position: absolute;
     left: 35%;
     top: 91%;
     background: hsl(204, 70%, 53%);

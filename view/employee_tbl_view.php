@@ -108,7 +108,7 @@ if (!isset($_SESSION['login'])) {
         <!--        TABLE HEAD START-->
         <thead id="thead-emp">
         <tr id="trow-header">
-            <th>STT</th>
+            <th>No</th>
             <th>Staff ID</th>
             <th>Full Name</th>
             <th>Phone Number</th>
@@ -162,6 +162,7 @@ if (!isset($_SESSION['login'])) {
             <td></td>
             <td>
                 <ion-icon class="add-btn" onclick="togglePopUpAdd()" name="add-circle-outline"></ion-icon>
+                <ion-icon class="refresh-btn" name="reload-outline"></ion-icon>
             </td>
         </tr>
         </tfoot>
@@ -186,9 +187,24 @@ if (!isset($_SESSION['login'])) {
                        placeholder="Phone Number"><br>
                 <input type="text" formmethod="POST" name="address-edit" id="address-edit" placeholder="Address"
                        value="3434dsadsa"><br>
-                <input type="text" formmethod="POST" name="job-edit" id="job-edit" placeholder="Job"><br>
-
-                <div class="container_btn_edit">
+                <input type="text" formmethod="POST" name="job-edit" id="job-edit" placeholder="Job"
+                       style="display: none"><br>
+                <select>
+                    <option id="o1" value="1">Administrator</option>
+                    <option id="o2" value="2">Radiologic technician.</option>
+                    <option id="o3" value="3">Dietician</option>
+                    <option id="o4" value="4">Respiratory therapist.</option>
+                    <option id="o5" value="5">Registered nurse.</option>
+                    <option id="o6" value="6">Occupational therapist.</option>
+                    <option id="o7" value="7">Pharmacist</option>
+                    <option id="o8" value="8">Physician assistant.</option>
+                    <option id="o9" value="9">Medical technologist.</option>
+                    <option id="o10" value="10">Floor cleaner</option>
+                    <option id="o11" value="11">Waste collector</option>
+                    <option id="o12" value="12">Equipment cleaner</option>
+                    <option id="o13" value="13">Guardian</option>
+                </select>
+                <div class="submit-form-button">
                     <button type="submit" id="submit_edit">Submit</button>
                 </div>
             </form>
@@ -205,13 +221,28 @@ if (!isset($_SESSION['login'])) {
         <div class="form-add">
             <div class="modal">
                 <form class="modal-edit" method="post" action="../controller/add.php">
-                <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
-                <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
-                <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
-                <input type="text" name="job-add" id="job-add" placeholder="Job"><br>
-                <div class="container_btn">
-                    <button type="submit" id="submit">Submit</button>
-                </div>
+                    <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
+                    <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
+                    <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
+                    <input type="text" name="job-add" id="job-add" placeholder="Job"><br>
+                    <select>
+                        <option id="a1" value="1">Administrator</option>
+                        <option id="a2" value="2">Radiologic technician.</option>
+                        <option id="a3" value="3">Dietician</option>
+                        <option id="a4" value="4">Respiratory therapist.</option>
+                        <option id="a5" value="5">Registered nurse.</option>
+                        <option id="a6" value="6">Occupational therapist.</option>
+                        <option id="a7" value="7">Pharmacist</option>
+                        <option id="a8" value="8">Physician assistant.</option>
+                        <option id="a9" value="9">Medical technologist.</option>
+                        <option id="oa0" value="10">Floor cleaner</option>
+                        <option id="oa1" value="11">Waste collector</option>
+                        <option id="oa2" value="12">Equipment cleaner</option>
+                        <option id="oa3" value="13">Guardian</option>
+                    </select>
+                    <div class="submit-form-button">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>

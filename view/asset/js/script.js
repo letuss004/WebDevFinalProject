@@ -166,6 +166,9 @@ function togglePopUpEditInformation(employeeID) {
     document.getElementById("phoneNumber-edit").value = document.getElementById(phoneNumberCol).innerText
     document.getElementById("address-edit").value = document.getElementById(addressCol).innerText
     document.getElementById("job-edit").value = document.getElementById(jobNameCol).innerText
+
+    setValues4Select("$jobNameCol" + document.getElementById("job-edit").innerText)
+    console.log("$jobNameCol" + document.getElementById("job-edit").innerText)
 }
 
 function togglePopUpAdd() {
@@ -173,6 +176,32 @@ function togglePopUpAdd() {
 }
 
 
-function editEmployee() {
-
+function setValues4Select(valuea) {
+    if (valuea === "Administrator") {
+        document.getElementById("o1").selected = "selected"
+    } else if (valuea === "Radiologic technician.") {
+        document.getElementById("o2").selected = "selected"
+    } else if (valuea === "Dietician") {
+        document.getElementById("o3").selected = "selected"
+    } else if (valuea === "Respiratory therapist.") {
+        document.getElementById("o4").selected = "selected"
+    } else if (valuea === "Registered nurse.") {
+        document.getElementById("o5").selected = "selected"
+    } else if (valuea === "Occupational therapist.") {
+        document.getElementById("o6").selected = "selected"
+    } else if (valuea === "Pharmacist") {
+        document.getElementById("o7").selected = "selected"
+    } else if (valuea === "Physician assistant.") {
+        document.getElementById("o8").selected = "selected"
+    } else if (valuea === "Medical technologist.") {
+        document.getElementById("o9").selected = "selected"
+    } else if (valuea === "Floor cleaner") {
+        document.getElementById("o10").selected = "selected"
+    } else if (valuea === "Waste collector") {
+        document.getElementById("o11").selected = "selected"
+    } else if (valuea === "Equipment cleaner") {
+        document.getElementById("o12").selected = "selected"
+    } else if (valuea === "Guardian") {
+        document.getElementById("o13").selected = "selected"
+    }
 }
