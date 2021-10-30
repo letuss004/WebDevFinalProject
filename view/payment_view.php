@@ -1,9 +1,17 @@
 <?php
 session_start();
 
+require_once "../controller/core/db_connection.php";
+
+require_once "../model/job_model.php";
+
+require_once "../model/employee_model.php";
 if (!isset($_SESSION['login'])) {
     header('Location: login_view.php');
+} else {
+    $_SESSION['employees'] = readEmployeeWithAllAttributes();
 }
+
 ?>
 
 <!DOCTYPE html>

@@ -16,6 +16,7 @@ $jobName = $_POST['job-edit'];
 $jobId = getJobByName($jobName)['id'];
 /*echo $employeeID." ".$fullName." ".$phoneNumber." ".$address." ".$jobName." ".$jobId;*/
 editEmployee($employeeID, $fullName, $jobId, $address, $phoneNumber);
+
 $_SESSION['employees'] = readEmployeeWithAllAttributes();
 header("Location: ../view/employee_tbl_view.php");
 

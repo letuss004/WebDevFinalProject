@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+require_once "../model/job_model.php";
+
+require_once "../model/employee_model.php";
 if (!isset($_SESSION['login'])) {
     header('Location: login_view.php');
 }
@@ -87,10 +90,12 @@ if (!isset($_SESSION['login'])) {
         </div>
         <!--Search-->
         <div class="search">
-            <label id="search_label">
-                <input type="text" placeholder="Search here">
-                <ion-icon name="search"></ion-icon>
-            </label>
+            <form action="../controller/search.php" method="post">
+                <label id="search_label">
+                    <input name="search-input" type="text" placeholder="Search here">
+                    <ion-icon name="search"></ion-icon>
+                </label>
+            </form>
         </div>
         <!--Hello admin-->
         <div class="user">
@@ -199,18 +204,21 @@ if (!isset($_SESSION['login'])) {
         <h1>Add Employee</h1>
         <div class="form-add">
             <div class="modal">
+                <form class="modal-edit" method="post" action="../controller/add.php">
                 <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
                 <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
                 <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
                 <input type="text" name="job-add" id="job-add" placeholder="Job"><br>
                 <div class="container_btn">
-                    <button id="submit">Submit</button>
+                    <button type="submit" id="submit">Submit</button>
                 </div>
+                </form>
             </div>
         </div>
     </div>
 </div>
 <!--POPUP ADD DIALOG END-->
+
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -1,8 +1,15 @@
 <?php
 session_start();
 
+require_once "../controller/core/db_connection.php";
+
+require_once "../model/job_model.php";
+
+require_once "../model/employee_model.php";
 if (!isset($_SESSION['login'])) {
     header('Location: login_view.php');
+} else {
+    $_SESSION['employees'] = readEmployeeWithAllAttributes();
 }
 
 ?>
@@ -141,7 +148,7 @@ if (!isset($_SESSION['login'])) {
                 <a href="#" class="view">Status</a>
             </div>
             <table id="table_status">
-                <thead id ="table_thead">
+                <thead id="table_thead">
                 <tr>
                     <td>Staffs Name</td>
                     <td>Jobs</td>

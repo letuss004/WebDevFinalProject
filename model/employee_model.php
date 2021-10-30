@@ -23,6 +23,19 @@ function readEmployeeWithAllAttributes() {
     return $employees;
 }
 
+function readEmployeeByName($fullName) {
+    $sql = "select * from employee where fullName = '$fullName'";
+    $res = execute($sql);
+    $employees = array();
+    while ($row = $res->fetch_assoc()) {
+        $job = getJob($row['jobId']);
+        $row['jobName'] = $job['jobName'];
+        $row['salary'] = $job['salary'];
+        array_push($employees, $row);
+    }
+    return $employees;
+}
+
 function delete_staff($employeeID)
 {
     if (isset($employeeID)) {
@@ -40,12 +53,11 @@ function kill_data_fk($employeeID)
     }
 }
 
-function add_staff($jobId, $fullName, $birthdate, $phoneNumber, $address)
+function add_staff($jobId, $fullName, $phoneNumber, $address)
 {
-    if (isset($jobId)) {
-        $sql = "INSERT INTO employee (jobId, fullName, birthdate, phoneNumber, address, paymentStatus) VALUES ('$jobId', '$fullName', '$birthdate', '$phoneNumber',  '$address', 0)";
+        $sql = "INSERT INTO employee (jobId, fullName, phoneNumber, address, paymentStatus) VALUES ('$jobId', '$fullName', '$phoneNumber',  '$address', 0)";
+        echo $sql;
         execute($sql);
-    }
 }
 
 function editEmployee($employeeID, $fullName, $jobId, $address, $phoneNumber) {
