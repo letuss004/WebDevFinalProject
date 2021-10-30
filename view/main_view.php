@@ -21,7 +21,6 @@ if (!isset($_SESSION['login'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Health Clinic Management</title>
     <link rel="stylesheet" href="asset/css/home.css">
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">

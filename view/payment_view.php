@@ -21,17 +21,11 @@ if (!isset($_SESSION['login'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
     <title>Health Clinic Management</title>
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="asset/image/favicon/apple_touch_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon/favicon_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/image/favicon/favicon_16x16.png">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-
-    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css'
-          rel='stylesheet'>
 </head>
 <body>
 <header>
@@ -77,7 +71,6 @@ if (!isset($_SESSION['login'])) {
                         </a>
                     </li>
                 </ul>
-
             </div>
         </div>
 </header>

@@ -64,31 +64,7 @@
     transform: translate(-50%, -50%) scale(1);
 }
 
-/*.edit-btn {*/
-/*    position: relative;*/
-/*    top: 21px;*/
-/*    left: 22%;*/
-/*    transform: translate(-50%,-50%);*/
-/*    border-radius: 10%;*/
-/*    font-size: 24px;*/
-/*    border: 1px solid var(--prirmary-color);*/
-/*    color: var(--black1);*/
-/*    text-transform: uppercase;*/
-/*    font-weight: 400;*/
-/*    background: var(--prirmary-color);*/
-/*}*/
 
-
-/*.edit-btn {*/
-/*    position: relative;*/
-/*    margin: 0px 35px;*/
-/*    text-align: center;*/
-/*    color: var(--prirmary-color);*/
-/*    background-color: var(--prirmary-color);*/
-/*    color: hsl(137, 100%, 45%);*/
-/*    justify-content: space-around;*/
-/*    align-content: center;*/
-/*}*/
 
 .edit-btn {
     color: lawngreen;

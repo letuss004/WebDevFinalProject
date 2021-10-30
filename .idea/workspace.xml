@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="dialog success">
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/asset/image/img16.png" afterDir="false" />
+    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="Project End.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/core/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/db_connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/front_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/front_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/asset/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/asset/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/payment_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +28,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$USER_HOME$/ProgrammingStuff/Xampp/php/PEAR" />
+      <path value="$PROJECT_DIR$/../../../ProgrammingStuff/Xampp/php/PEAR" />
     </include_path>
   </component>
   <component name="ProjectId" id="20B5yeHtLFo0roK6sx56U3abnwm" />
@@ -169,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635568423748</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project End.">
+      <created>1635575219315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635575219315</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +193,8 @@
     <MESSAGE value="merge and solve conflict" />
     <MESSAGE value="1" />
     <MESSAGE value="dialog success" />
-    <option name="LAST_COMMIT_MESSAGE" value="dialog success" />
+    <MESSAGE value="Project End." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project End." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

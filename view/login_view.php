@@ -57,7 +57,6 @@
                 <img src="asset/image/medicine_bro.svg" class="image" alt=""/>
     </div>
 </div>
-<!--<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="asset/js/script.js"></script>
 
