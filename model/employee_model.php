@@ -24,7 +24,7 @@ function readEmployeeWithAllAttributes() {
 }
 
 function readEmployeeByName($fullName) {
-    $sql = "select * from employee where fullName = '$fullName'";
+    $sql = "SELECT * FROM employee WHERE fullName LIKE '%$fullName%'";
     $res = execute($sql);
     $employees = array();
     while ($row = $res->fetch_assoc()) {

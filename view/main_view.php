@@ -128,7 +128,7 @@ if (!isset($_SESSION['login'])) {
         <div class="card">
             <div>
                 <div class="numbers"> <?php
-                    require_once "../controller/main.php";
+                    require_once "../controller/core/func.php";
                     echo calTotalPaid($_SESSION['employees']);
                     ?></div>
                 <div class="cardName">Paid</div>

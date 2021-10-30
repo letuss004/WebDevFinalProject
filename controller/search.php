@@ -11,5 +11,6 @@ require_once "../model/employee_model.php";
 $fullName = $_POST['search-input'];
 
 $_SESSION['employees'] = readEmployeeByName($fullName);
+/*echo sizeof($_SESSION['employees']);*/
 header("Location: ../view/employee_tbl_view.php");
 
