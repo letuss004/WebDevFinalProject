@@ -86,7 +86,7 @@ if (!isset($_SESSION['login'])) {
     <div class="topBar">
         <!--//onclick="toggleMenu();" for toggle v1-->
         <div class="toggle">
-            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
         </div>
         <!--Search-->
         <div class="search">
@@ -162,7 +162,9 @@ if (!isset($_SESSION['login'])) {
             <td></td>
             <td>
                 <ion-icon class="add-btn" onclick="togglePopUpAdd()" name="add-circle-outline"></ion-icon>
-                <a href="../controller/refresh_employee_tbl.php"><ion-icon class="refresh-btn" name="reload-outline"></ion-icon></a>
+                <a href="../controller/refresh_employee_tbl.php">
+                    <ion-icon class="refresh-btn" name="reload-outline"></ion-icon>
+                </a>
             </td>
         </tr>
         </tfoot>

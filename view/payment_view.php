@@ -85,7 +85,7 @@ if (!isset($_SESSION['login'])) {
 <div class="main">
     <div class="topbar">
         <div class="toggle">
-            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
         </div>
         <div class="user">
             <span>Hi, Welcome <?php echo $_SESSION['login']['username'] . " !" ?></span>
@@ -105,9 +105,11 @@ if (!isset($_SESSION['login'])) {
                 <?php
                 $cnt = 1;
                 foreach ($_SESSION['employees'] as $employee) {
+                    $src = 'img' . $cnt . '.jpg';
+
                     echo "<div class='view_item'>";
                     echo "<div class='vi_left'>";
-                    echo "<img src='asset/image/tmp.jpg' alt='???'>";
+                    echo "<img src='asset/image/" . $src . "' alt=' ???'>";
                     echo "</div>";
                     echo "<div class='vi_right'>";
                     echo "<p class='title'>" . $employee['fullName'] . "</p>";

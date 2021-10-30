@@ -84,7 +84,7 @@ if (!isset($_SESSION['login'])) {
     <div class="topbar">
         <!--//onclick="toggleMenu();" for toggle v1-->
         <div class="toggle">
-            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
         </div>
         <!--UserImg-->
         <div class="user">
@@ -190,16 +190,20 @@ if (!isset($_SESSION['login'])) {
                 <h2>Doctor & Nurses</h2>
                 <span class="status available">Available</span>
             </div>
-            <table id="list">
+            <table id="list" class="table-main-view">
 
                 <?php
+                $ctn = 1;
                 foreach ($_SESSION['employees'] as $employee) {
+                    $src = 'img' . $ctn . '.jpg';
+
                     if (!$employee['status']) {
                         echo "<tr>";
-                        echo "<td width='60px'><div class='imgBx'><img src='' alt=''></div></td>";
+                        echo "<td width='60px'><div class='imgBx'><img src='asset/image/" . $src . "' alt=''></div></td>";
                         echo "<td><h4>" . $employee['fullName'] . "<br><span>" . $employee['jobName'] . "</span></h4></td>";
                         echo "</tr>";
                     }
+                    $ctn++;
                 }
                 ?>
             </table>

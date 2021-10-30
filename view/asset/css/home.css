@@ -478,6 +478,11 @@
 
 #list tr:hover td h4 span {
     color: var(--primary-color);
+
+}
+
+#list td {
+    padding: 5px;
 }
 
 
@@ -544,3 +549,4 @@
         color: var(--prirmary-color);
     }
 }
+

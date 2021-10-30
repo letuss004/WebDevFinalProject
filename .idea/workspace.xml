@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="commit for checkout">
-      <change afterPath="$PROJECT_DIR$/controller/refresh_employee_tbl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_41_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_27_2021_12_57_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_2021_1_14_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_2021_1_14_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_2021_1_50_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_29_2021_1_50_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10_27_2021_9_29_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="dialog success">
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/asset/image/img16.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/core/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/db_connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/employee_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/employee_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/payment_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller/core" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lduy1_nqn7x3u\OneDrive\Desktop\WebDevFinalProject\controller\core" />
+      <recent name="D:\ProgrammingProject\Web\WebDevFinalProject\view\asset\image" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.add.php">
