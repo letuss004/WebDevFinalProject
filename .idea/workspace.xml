@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="commit for checkout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/core/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/core/db_connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/asset/css/addButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/addButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/asset/css/editButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/css/editButton.css" afterDir="false" />
+    <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="dialog success">
       <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635565993285</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dialog success">
+      <created>1635567916576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635567916576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +159,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="merge and solve conflict" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="dialog success" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialog success" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

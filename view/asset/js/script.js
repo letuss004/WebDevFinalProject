@@ -154,7 +154,6 @@ function togglePopUpEdit() {
 
 function togglePopUpEditInformation(employeeID) {
     document.getElementById("popupEdit").classList.toggle("active");
-    console.log(employeeID)
     let employeeIdCol = "employeeIdCol" + employeeID
     let fullNameCol = "fullNameCol" + employeeID
     let phoneNumberCol = "phoneNumberCol" + employeeID
@@ -167,8 +166,8 @@ function togglePopUpEditInformation(employeeID) {
     document.getElementById("address-edit").value = document.getElementById(addressCol).innerText
     document.getElementById("job-edit").value = document.getElementById(jobNameCol).innerText
 
-    setValues4Select("$jobNameCol" + document.getElementById("job-edit").innerText)
-    console.log("$jobNameCol" + document.getElementById("job-edit").innerText)
+    setValues4Select(document.getElementById(jobNameCol).innerText)
+    console.log(document.getElementById(jobNameCol).innerText)
 }
 
 function togglePopUpAdd() {
@@ -204,4 +203,8 @@ function setValues4Select(valuea) {
     } else if (valuea === "Guardian") {
         document.getElementById("o13").selected = "selected"
     }
+}
+
+function setSelectValue() {
+
 }

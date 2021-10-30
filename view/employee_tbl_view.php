@@ -224,8 +224,8 @@ if (!isset($_SESSION['login'])) {
                     <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
                     <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
                     <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
-                    <input type="text" name="job-add" id="job-add" placeholder="Job"><br>
-                    <select>
+                    <input type="text" name="job-add" id="job-add" placeholder="Job" style="display: none"><br>
+                    <select onkeydown="setSelectValue()">
                         <option id="a1" value="1">Administrator</option>
                         <option id="a2" value="2">Radiologic technician.</option>
                         <option id="a3" value="3">Dietician</option>
