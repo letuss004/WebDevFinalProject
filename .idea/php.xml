@@ -3,6 +3,7 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$USER_HOME$/ProgrammingStuff/Xampp/php/PEAR" />
+      <path value="$PROJECT_DIR$/../../../ProgrammingStuff/Xampp/php/PEAR" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
