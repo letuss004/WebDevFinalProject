@@ -224,21 +224,22 @@ if (!isset($_SESSION['login'])) {
                     <input type="text" name="fullName-add" id="fullName-add" placeholder="Full Name"><br>
                     <input type="text" name="phoneNumber-add" id="phoneNumber-add" placeholder="Phone Number"><br>
                     <input type="text" name="address-add" id="address-add" placeholder="Address"><br>
-                    <input type="text" name="job-add" id="job-add" placeholder="Job" style="display: none"><br>
-                    <select onkeydown="setSelectValue()">
-                        <option id="a1" value="1">Administrator</option>
-                        <option id="a2" value="2">Radiologic technician.</option>
-                        <option id="a3" value="3">Dietician</option>
-                        <option id="a4" value="4">Respiratory therapist.</option>
-                        <option id="a5" value="5">Registered nurse.</option>
-                        <option id="a6" value="6">Occupational therapist.</option>
-                        <option id="a7" value="7">Pharmacist</option>
-                        <option id="a8" value="8">Physician assistant.</option>
-                        <option id="a9" value="9">Medical technologist.</option>
-                        <option id="oa0" value="10">Floor cleaner</option>
-                        <option id="oa1" value="11">Waste collector</option>
-                        <option id="oa2" value="12">Equipment cleaner</option>
-                        <option id="oa3" value="13">Guardian</option>
+                    <input type="text" value="1" name="job-add" id="job-add" placeholder="Job"
+                           style="display: none"><br>
+                    <select onclick="setSelectValue()" onloadstart="setSelectValue()" id="select-add">
+                        <option onclick="setSelectValue()" id="a1" value="1">Administrator</option>
+                        <option onclick="setSelectValue()" id="a2" value="2">Radiologic technician.</option>
+                        <option onclick="setSelectValue()" id="a3" value="3">Dietician</option>
+                        <option onclick="setSelectValue()" id="a4" value="4">Respiratory therapist.</option>
+                        <option onclick="setSelectValue()" id="a5" value="5">Registered nurse.</option>
+                        <option onclick="setSelectValue()" id="a6" value="6">Occupational therapist.</option>
+                        <option onclick="setSelectValue()" id="a7" value="7">Pharmacist</option>
+                        <option onclick="setSelectValue()" id="a8" value="8">Physician assistant.</option>
+                        <option onclick="setSelectValue()" id="a9" value="9">Medical technologist.</option>
+                        <option onclick="setSelectValue()" id="oa0" value="10">Floor cleaner</option>
+                        <option onclick="setSelectValue()" id="oa1" value="11">Waste collector</option>
+                        <option onclick="setSelectValue()" id="oa2" value="12">Equipment cleaner</option>
+                        <option onclick="setSelectValue()" id="oa3" value="13">Guardian</option>
                     </select>
                     <div class="submit-form-button">
                         <button type="submit" id="submit">Submit</button>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="dialog success">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/asset/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/asset/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +45,19 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.validate.js">
+  <component name="RunManager" selected="PHP Script.add.php">
     <configuration name="validate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/front_end/list/sources/validate.js" working-dir="$PROJECT_DIR$/front_end/list/sources">
       <method v="2" />
     </configuration>
     <configuration name="account_model.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/account_model.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="add.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/add.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.0" />
@@ -60,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.add.php" />
         <item itemvalue="PHP Script.account_model.php" />
         <item itemvalue="Node.js.validate.js" />
         <item itemvalue="PHP Script.delete.php" />
         <item itemvalue="PHP Script.account_model.php" />
-        <item itemvalue="Node.js.validate.js" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635567916576</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dialog success">
+      <created>1635568423748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635568423748</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -167,7 +167,6 @@ function togglePopUpEditInformation(employeeID) {
     document.getElementById("job-edit").value = document.getElementById(jobNameCol).innerText
 
     setValues4Select(document.getElementById(jobNameCol).innerText)
-    console.log(document.getElementById(jobNameCol).innerText)
 }
 
 function togglePopUpAdd() {
@@ -206,5 +205,35 @@ function setValues4Select(valuea) {
 }
 
 function setSelectValue() {
-
+    let valuea = document.getElementById("select-add").value;
+    console.log(valuea)
+    document.getElementById("job-add").value = valuea
+    if (valuea === "Administrator") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Radiologic technician.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Dietician") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Respiratory therapist.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Registered nurse.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Occupational therapist.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Pharmacist") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Physician assistant.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Medical technologist.") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Floor cleaner") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Waste collector") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Equipment cleaner") {
+        document.getElementById("job-add").value = valuea
+    } else if (valuea === "Guardian") {
+        document.getElementById("job-add").value = valuea
+    }
+    console.log(document.getElementById("job-add").value)
 }
