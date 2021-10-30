@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a18f059b-eeb1-49a7-9602-82c18a9846a2" name="Changes" comment="commit for checkout">
-      <change afterPath="$PROJECT_DIR$/controller/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/employee_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/employee_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/employee_tbl_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/employee_tbl_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/payment_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/payment_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
